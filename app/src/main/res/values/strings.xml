@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ruk Virtual</string>
+    <string name="tagline">Android Virtual Environment Manager</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_devices">Devices</string>
+    <string name="nav_apps">Apps</string>
+    <string name="nav_accounts">Accounts</string>
+    <string name="nav_storage">Storage</string>
+    <string name="nav_services">Services</string>
+    <string name="nav_diagnostics">Diagnostics</string>
+    <string name="nav_security">Security</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="env_status_running">Running</string>
+    <string name="env_status_stopped">Stopped</string>
+    <string name="action_start_env">Start Environment</string>
+    <string name="action_stop_env">Stop Environment</string>
+    <string name="action_install_apk">Install APK</string>
+    <string name="action_create_env">Create Environment</string>
+    <string name="action_clone_env">Clone Environment</string>
+    <string name="action_clean_cache">Clean Cache</string>
+    <string name="action_run_diag">Run Diagnostics</string>
+</resources>

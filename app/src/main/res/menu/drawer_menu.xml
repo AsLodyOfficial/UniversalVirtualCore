@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_home"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/drawer_devices"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/nav_devices" />
+        <item
+            android:id="@+id/drawer_apps"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/nav_apps" />
+        <item
+            android:id="@+id/drawer_accounts"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/nav_accounts" />
+        <item
+            android:id="@+id/drawer_storage"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="@string/nav_storage" />
+        <item
+            android:id="@+id/drawer_services"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/nav_services" />
+        <item
+            android:id="@+id/drawer_diagnostics"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/nav_diagnostics" />
+        <item
+            android:id="@+id/drawer_security"
+            android:icon="@android:drawable/ic_lock_lock"
+            android:title="@string/nav_security" />
+        <item
+            android:id="@+id/drawer_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/nav_settings" />
+    </group>
+</menu>

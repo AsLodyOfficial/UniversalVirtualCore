@@ -1,0 +1,279 @@
+﻿Compiled from "IActivityManagerProxy.java"
+public class org.alok.engine.fake.service.IActivityManagerProxy$GetContentProvider extends org.alok.engine.fake.hook.MethodHook {
+  public org.alok.engine.fake.service.IActivityManagerProxy$GetContentProvider();
+    Code:
+       0: aload_0
+       1: invokespecial #5                  // Method org/alok/engine/fake/hook/MethodHook."<init>":()V
+       4: return
+
+  protected java.lang.Object hook(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]) throws java.lang.Throwable;
+    Code:
+       0: aload_0
+       1: invokevirtual #11                 // Method getAuthIndex:()I
+       4: istore        4
+       6: aload_3
+       7: iload         4
+       9: aaload
+      10: astore        5
+      12: aconst_null
+      13: astore        6
+      15: aload         5
+      17: instanceof    #17                 // class java/lang/String
+      20: ifeq          566
+      23: aload         5
+      25: checkcast     #17                 // class java/lang/String
+      28: ldc           #19                 // String appdoctor
+      30: invokevirtual #21                 // Method java/lang/String.contains:(Ljava/lang/CharSequence;)Z
+      33: ifeq          38
+      36: aconst_null
+      37: areturn
+      38: aload         5
+      40: checkcast     #17                 // class java/lang/String
+      43: invokestatic  #25                 // Method org/alok/engine/proxy/ProxyManifest.isProxy:(Ljava/lang/String;)Z
+      46: ifeq          56
+      49: aload_2
+      50: aload_1
+      51: aload_3
+      52: invokevirtual #31                 // Method java/lang/reflect/Method.invoke:(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+      55: areturn
+      56: invokestatic  #37                 // Method org/alok/engine/utils/compat/BuildCompat.isQ:()Z
+      59: ifeq          68
+      62: aload_3
+      63: iconst_1
+      64: invokestatic  #43                 // Method org/alok/engine/Alok.getHostPkg:()Ljava/lang/String;
+      67: aastore
+      68: invokestatic  #49                 // Method org/alok/engine/Alok.getBPackageManager:()Lorg/alok/engine/fake/frameworks/BPackageManager;
+      71: aload         5
+      73: checkcast     #17                 // class java/lang/String
+      76: sipush        128
+      79: invokestatic  #53                 // Method org/alok/engine/app/BActivityThread.getUserId:()I
+      82: invokevirtual #58                 // Method org/alok/engine/fake/frameworks/BPackageManager.resolveContentProvider:(Ljava/lang/String;II)Landroid/content/pm/ProviderInfo;
+      85: astore        7
+      87: aload         7
+      89: ifnonnull     214
+      92: aload         5
+      94: ldc           #64                 // String settings
+      96: invokevirtual #66                 // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+      99: ifne          191
+     102: aload         5
+     104: ldc           #72                 // String media
+     106: invokevirtual #66                 // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+     109: ifne          191
+     112: aload         5
+     114: ldc           #74                 // String telephony
+     116: invokevirtual #66                 // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+     119: ifne          191
+     122: aload         5
+     124: checkcast     #17                 // class java/lang/String
+     127: ldc           #76                 // String com.google.android.gms
+     129: invokevirtual #21                 // Method java/lang/String.contains:(Ljava/lang/CharSequence;)Z
+     132: ifne          191
+     135: aload         5
+     137: checkcast     #17                 // class java/lang/String
+     140: ldc           #78                 // String com.android.vending
+     142: invokevirtual #21                 // Method java/lang/String.contains:(Ljava/lang/CharSequence;)Z
+     145: ifne          191
+     148: aload         5
+     150: checkcast     #17                 // class java/lang/String
+     153: ldc           #80                 // String com.google.android.gsf
+     155: invokevirtual #21                 // Method java/lang/String.contains:(Ljava/lang/CharSequence;)Z
+     158: ifne          191
+     161: aload         5
+     163: ldc           #82                 // String com.google.android.gms.chimera
+     165: invokevirtual #66                 // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+     168: ifne          191
+     171: aload         5
+     173: ldc           #84                 // String com.huawei.android.launcher.settings
+     175: invokevirtual #66                 // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+     178: ifne          191
+     181: aload         5
+     183: ldc           #86                 // String com.hihonor.android.launcher.settings
+     185: invokevirtual #66                 // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+     188: ifeq          212
+     191: aload_2
+     192: aload_1
+     193: aload_3
+     194: invokevirtual #31                 // Method java/lang/reflect/Method.invoke:(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+     197: astore        6
+     199: aload         6
+     201: aload         5
+     203: checkcast     #17                 // class java/lang/String
+     206: invokestatic  #88                 // Method org/alok/engine/fake/delegate/ContentProviderDelegate.update:(Ljava/lang/Object;Ljava/lang/String;)V
+     209: aload         6
+     211: areturn
+     212: aconst_null
+     213: areturn
+     214: aconst_null
+     215: astore        8
+     217: invokestatic  #94                 // Method org/alok/engine/app/BActivityThread.getAppPid:()I
+     220: iconst_m1
+     221: if_icmpeq     352
+     224: invokestatic  #97                 // Method org/alok/engine/Alok.getBActivityManager:()Lorg/alok/engine/fake/frameworks/BActivityManager;
+     227: aload         7
+     229: getfield      #101                // Field android/content/pm/ProviderInfo.packageName:Ljava/lang/String;
+     232: aload         7
+     234: getfield      #107                // Field android/content/pm/ProviderInfo.processName:Ljava/lang/String;
+     237: invokestatic  #53                 // Method org/alok/engine/app/BActivityThread.getUserId:()I
+     240: invokevirtual #110                // Method org/alok/engine/fake/frameworks/BActivityManager.initProcess:(Ljava/lang/String;Ljava/lang/String;I)Lorg/alok/engine/entity/AppConfig;
+     243: astore        9
+     245: aload         9
+     247: ifnull        274
+     250: aload         9
+     252: getfield      #116                // Field org/alok/engine/entity/AppConfig.bpid:I
+     255: invokestatic  #94                 // Method org/alok/engine/app/BActivityThread.getAppPid:()I
+     258: if_icmpeq     274
+     261: invokestatic  #97                 // Method org/alok/engine/Alok.getBActivityManager:()Lorg/alok/engine/fake/frameworks/BActivityManager;
+     264: aload         7
+     266: invokevirtual #122                // Method org/alok/engine/fake/frameworks/BActivityManager.acquireContentProviderClient:(Landroid/content/pm/ProviderInfo;)Landroid/os/IBinder;
+     269: astore        8
+     271: goto          323
+     274: aload         9
+     276: ifnull        323
+     279: invokestatic  #126                // Method org/alok/engine/app/BActivityThread.currentActivityThread:()Lorg/alok/engine/app/BActivityThread;
+     282: aload         7
+     284: invokevirtual #130                // Method org/alok/engine/app/BActivityThread.acquireContentProviderClient:(Landroid/content/pm/ProviderInfo;)Landroid/os/IBinder;
+     287: astore        8
+     289: goto          323
+     292: astore        10
+     294: ldc           #133                // String ActivityManagerStub
+     296: new           #135                // class java/lang/StringBuilder
+     299: dup
+     300: invokespecial #137                // Method java/lang/StringBuilder."<init>":()V
+     303: ldc           #138                // String Local acquireContentProviderClient failed:
+     305: invokevirtual #140                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     308: aload         10
+     310: invokevirtual #144                // Method java/lang/Throwable.getMessage:()Ljava/lang/String;
+     313: invokevirtual #140                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     316: invokevirtual #147                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     319: invokestatic  #150                // Method org/alok/engine/utils/Slog.w:(Ljava/lang/String;Ljava/lang/String;)I
+     322: pop
+     323: aload         9
+     325: ifnull        352
+     328: aload_3
+     329: iload         4
+     331: aload         9
+     333: getfield      #116                // Field org/alok/engine/entity/AppConfig.bpid:I
+     336: invokestatic  #156                // Method org/alok/engine/proxy/ProxyManifest.getProxyAuthorities:(I)Ljava/lang/String;
+     339: aastore
+     340: aload_3
+     341: aload_0
+     342: invokevirtual #160                // Method getUserIndex:()I
+     345: invokestatic  #163                // Method org/alok/engine/Alok.getHostUserId:()I
+     348: invokestatic  #166                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+     351: aastore
+     352: aload         8
+     354: ifnonnull     378
+     357: aload_2
+     358: aload_1
+     359: aload_3
+     360: invokevirtual #31                 // Method java/lang/reflect/Method.invoke:(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+     363: astore        6
+     365: aload         6
+     367: aload         5
+     369: checkcast     #17                 // class java/lang/String
+     372: invokestatic  #88                 // Method org/alok/engine/fake/delegate/ContentProviderDelegate.update:(Ljava/lang/Object;Ljava/lang/String;)V
+     375: aload         6
+     377: areturn
+     378: aload_2
+     379: aload_1
+     380: aload_3
+     381: invokevirtual #31                 // Method java/lang/reflect/Method.invoke:(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+     384: astore        6
+     386: aload         6
+     388: ifnull        563
+     391: invokestatic  #172                // Method org/alok/android/content/BRContentProviderNative.get:()Lorg/alok/android/content/ContentProviderNativeStatic;
+     394: aload         8
+     396: invokeinterface #178,  2          // InterfaceMethod org/alok/android/content/ContentProviderNativeStatic.asInterface:(Landroid/os/IBinder;)Landroid/os/IInterface;
+     401: astore        9
+     403: ldc           #184                // String com.google.android.gsf.gservices
+     405: aload         5
+     407: invokevirtual #186                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     410: ifne          423
+     413: ldc           #187                // String gservices
+     415: aload         5
+     417: invokevirtual #186                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     420: ifeq          445
+     423: new           #189                // class org/alok/engine/fake/service/context/providers/SystemProviderStub
+     426: dup
+     427: invokespecial #191                // Method org/alok/engine/fake/service/context/providers/SystemProviderStub."<init>":()V
+     430: aload         9
+     432: aload         7
+     434: getfield      #101                // Field android/content/pm/ProviderInfo.packageName:Ljava/lang/String;
+     437: invokevirtual #192                // Method org/alok/engine/fake/service/context/providers/SystemProviderStub.wrapper:(Landroid/os/IInterface;Ljava/lang/String;)Landroid/os/IInterface;
+     440: astore        10
+     442: goto          464
+     445: new           #196                // class org/alok/engine/fake/service/context/providers/ContentProviderStub
+     448: dup
+     449: invokespecial #198                // Method org/alok/engine/fake/service/context/providers/ContentProviderStub."<init>":()V
+     452: aload         9
+     454: aload         7
+     456: getfield      #101                // Field android/content/pm/ProviderInfo.packageName:Ljava/lang/String;
+     459: invokevirtual #199                // Method org/alok/engine/fake/service/context/providers/ContentProviderStub.wrapper:(Landroid/os/IInterface;Ljava/lang/String;)Landroid/os/IInterface;
+     462: astore        10
+     464: invokestatic  #200                // Method org/alok/engine/utils/compat/BuildCompat.isOreo:()Z
+     467: ifeq          497
+     470: aload         6
+     472: invokestatic  #203                // Method org/alok/android/content/BRContentProviderHolderOreo.get:(Ljava/lang/Object;)Lorg/alok/android/content/ContentProviderHolderOreoContext;
+     475: aload         7
+     477: invokeinterface #208,  2          // InterfaceMethod org/alok/android/content/ContentProviderHolderOreoContext._set_info:(Ljava/lang/Object;)V
+     482: aload         6
+     484: invokestatic  #203                // Method org/alok/android/content/BRContentProviderHolderOreo.get:(Ljava/lang/Object;)Lorg/alok/android/content/ContentProviderHolderOreoContext;
+     487: aload         10
+     489: invokeinterface #214,  2          // InterfaceMethod org/alok/android/content/ContentProviderHolderOreoContext._set_provider:(Ljava/lang/Object;)V
+     494: goto          521
+     497: aload         6
+     499: invokestatic  #217                // Method org/alok/android/app/BRIActivityManagerContentProviderHolder.get:(Ljava/lang/Object;)Lorg/alok/android/app/IActivityManagerContentProviderHolderContext;
+     502: aload         7
+     504: invokeinterface #222,  2          // InterfaceMethod org/alok/android/app/IActivityManagerContentProviderHolderContext._set_info:(Ljava/lang/Object;)V
+     509: aload         6
+     511: invokestatic  #217                // Method org/alok/android/app/BRIActivityManagerContentProviderHolder.get:(Ljava/lang/Object;)Lorg/alok/android/app/IActivityManagerContentProviderHolderContext;
+     514: aload         10
+     516: invokeinterface #225,  2          // InterfaceMethod org/alok/android/app/IActivityManagerContentProviderHolderContext._set_provider:(Ljava/lang/Object;)V
+     521: goto          563
+     524: astore        11
+     526: aload         6
+     528: invokestatic  #226                // Method org/alok/engine/utils/Reflector.with:(Ljava/lang/Object;)Lorg/alok/engine/utils/Reflector;
+     531: ldc           #232                // String info
+     533: invokevirtual #234                // Method org/alok/engine/utils/Reflector.field:(Ljava/lang/String;)Lorg/alok/engine/utils/Reflector;
+     536: aload         7
+     538: invokevirtual #238                // Method org/alok/engine/utils/Reflector.set:(Ljava/lang/Object;)Lorg/alok/engine/utils/Reflector;
+     541: pop
+     542: aload         6
+     544: invokestatic  #226                // Method org/alok/engine/utils/Reflector.with:(Ljava/lang/Object;)Lorg/alok/engine/utils/Reflector;
+     547: ldc           #241                // String provider
+     549: invokevirtual #234                // Method org/alok/engine/utils/Reflector.field:(Ljava/lang/String;)Lorg/alok/engine/utils/Reflector;
+     552: aload         10
+     554: invokevirtual #238                // Method org/alok/engine/utils/Reflector.set:(Ljava/lang/Object;)Lorg/alok/engine/utils/Reflector;
+     557: pop
+     558: goto          563
+     561: astore        12
+     563: aload         6
+     565: areturn
+     566: aload_2
+     567: aload_1
+     568: aload_3
+     569: invokevirtual #31                 // Method java/lang/reflect/Method.invoke:(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+     572: areturn
+    Exception table:
+       from    to  target type
+         279   289   292   Class java/lang/Throwable
+         464   521   524   Class java/lang/Throwable
+         526   558   561   Class java/lang/Throwable
+
+  protected int getAuthIndex();
+    Code:
+       0: invokestatic  #37                 // Method org/alok/engine/utils/compat/BuildCompat.isQ:()Z
+       3: ifeq          8
+       6: iconst_2
+       7: ireturn
+       8: iconst_1
+       9: ireturn
+
+  protected int getUserIndex();
+    Code:
+       0: aload_0
+       1: invokevirtual #11                 // Method getAuthIndex:()I
+       4: iconst_1
+       5: iadd
+       6: ireturn
+}

@@ -1,0 +1,201 @@
+>   public void doAttachBaseContext(android.content.Context, org.alok.engine.app.configuration.ClientConfiguration);
+      Code:
+         0: aload_0
+         1: aload_1
+         2: aload_2
+         3: invokevirtual #610                // Method setEssentialProperties:(Landroid/content/Context;Lorg/alok/engine/app/configuration/ClientConfiguration;)V
+         6: ldc_w         #614                // String android.view.WindowManager
+         9: invokestatic  #616                // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+        12: astore_3
+        13: aload_3
+        14: ldc_w         #622                // String mIgnoreWindowLeaks
+        17: invokevirtual #624                // Method java/lang/Class.getDeclaredField:(Ljava/lang/String;)Ljava/lang/reflect/Field;
+        20: astore        4
+        22: aload         4
+        24: iconst_1
+        25: invokevirtual #628                // Method java/lang/reflect/Field.setAccessible:(Z)V
+        28: goto          61
+        31: astore_3
+        32: ldc           #169                // String Alok
+        34: new           #123                // class java/lang/StringBuilder
+        37: dup
+        38: invokespecial #125                // Method java/lang/StringBuilder."<init>":()V
+        41: ldc_w         #634                // String Could not access WindowManager leak field:
+        44: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        47: aload_3
+        48: invokevirtual #156                // Method java/lang/Exception.getMessage:()Ljava/lang/String;
+        51: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        54: invokevirtual #137                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        57: invokestatic  #173                // Method org/alok/engine/utils/Slog.w:(Ljava/lang/String;Ljava/lang/String;)I
+        60: pop
+        61: goto          94
+        64: astore_3
+        65: ldc           #169                // String Alok
+        67: new           #123                // class java/lang/StringBuilder
+        70: dup
+        71: invokespecial #125                // Method java/lang/StringBuilder."<init>":()V
+        74: ldc_w         #636                // String Failed to set essential properties:
+        77: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        80: aload_3
+        81: invokevirtual #156                // Method java/lang/Exception.getMessage:()Ljava/lang/String;
+        84: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        87: invokevirtual #137                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        90: invokestatic  #173                // Method org/alok/engine/utils/Slog.w:(Ljava/lang/String;Ljava/lang/String;)I
+        93: pop
+        94: aload_1
+        95: putstatic     #100                // Field sContext:Landroid/content/Context;
+        98: aload_0
+        99: aload_2
+       100: putfield      #638                // Field mClientConfiguration:Lorg/alok/engine/app/configuration/ClientConfiguration;
+       103: invokestatic  #642                // Method installSystemHooks:()V
+       106: aload_0
+       107: invokevirtual #645                // Method initNotificationManager:()V
+       110: invokestatic  #342                // Method getContext:()Landroid/content/Context;
+       113: invokestatic  #648                // Method getProcessName:(Landroid/content/Context;)Ljava/lang/String;
+       116: astore_3
+       117: aload_3
+       118: invokestatic  #652                // Method getHostPkg:()Ljava/lang/String;
+       121: invokevirtual #655                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       124: ifeq          141
+       127: aload_0
+       128: getstatic     #659                // Field org/alok/engine/Alok$ProcessType.Main:Lorg/alok/engine/Alok$ProcessType;
+       131: putfield      #665                // Field mProcessType:Lorg/alok/engine/Alok$ProcessType;
+       134: aload_0
+       135: invokevirtual #668                // Method startLogcat:()V
+       138: goto          174
+       141: aload_3
+       142: invokestatic  #342                // Method getContext:()Landroid/content/Context;
+       145: getstatic     #671                // Field com/universal/virtualcore/R$string.black_box_service_name:I
+       148: invokevirtual #676                // Method android/content/Context.getString:(I)Ljava/lang/String;
+       151: invokevirtual #680                // Method java/lang/String.endsWith:(Ljava/lang/String;)Z
+       154: ifeq          167
+       157: aload_0
+       158: getstatic     #684                // Field org/alok/engine/Alok$ProcessType.Server:Lorg/alok/engine/Alok$ProcessType;
+       161: putfield      #665                // Field mProcessType:Lorg/alok/engine/Alok$ProcessType;
+       164: goto          174
+       167: aload_0
+       168: getstatic     #687                // Field org/alok/engine/Alok$ProcessType.BAppClient:Lorg/alok/engine/Alok$ProcessType;
+       171: putfield      #665                // Field mProcessType:Lorg/alok/engine/Alok$ProcessType;
+       174: invokestatic  #110                // Method get:()Lorg/alok/engine/Alok;
+       177: invokevirtual #690                // Method isBlackProcess:()Z
+       180: ifeq          196
+       183: invokestatic  #693                // Method org/alok/engine/core/env/BEnvironment.load:()V
+       186: aload_3
+       187: ldc_w         #698                // String p0
+       190: invokevirtual #680                // Method java/lang/String.endsWith:(Ljava/lang/String;)Z
+       193: ifeq          196
+       196: aload_0
+       197: invokevirtual #700                // Method isServerProcess:()Z
+       200: ifeq          727
+       203: aload_2
+       204: invokevirtual #703                // Method org/alok/engine/app/configuration/ClientConfiguration.isEnableDaemonService:()Z
+       207: ifeq          727
+       210: aload_0
+       211: invokevirtual #411                // Method isValidProcessState:()Z
+       214: ifne          231
+       217: ldc           #169                // String Alok
+       219: ldc_w         #706                // String Server process state is invalid, delaying service start
+       222: invokestatic  #173                // Method org/alok/engine/utils/Slog.w:(Ljava/lang/String;Ljava/lang/String;)I
+       225: pop
+       226: aload_0
+       227: invokevirtual #708                // Method scheduleDelayedServerServiceStart:()V
+       230: return
+       231: new           #419                // class android/content/Intent
+       234: dup
+       235: invokespecial #421                // Method android/content/Intent."<init>":()V
+       238: astore        4
+       240: aload         4
+       242: invokestatic  #342                // Method getContext:()Landroid/content/Context;
+       245: ldc_w         #422                // class org/alok/engine/core/system/DaemonService
+       248: invokevirtual #424                // Method android/content/Intent.setClass:(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
+       251: pop
+       252: aload         4
+       254: ldc_w         #428                // int 268435456
+       257: invokevirtual #429                // Method android/content/Intent.addFlags:(I)Landroid/content/Intent;
+       260: pop
+       261: iconst_0
+       262: istore        5
+       264: iconst_3
+       265: istore        6
+       267: iconst_0
+       268: istore        7
+       270: iload         7
+       272: iload         6
+       274: if_icmpge     644
+       277: iload         5
+       279: ifne          644
+       282: iload         7
+       284: ifle          349
+       287: ldc           #169                // String Alok
+       289: new           #123                // class java/lang/StringBuilder
+       292: dup
+       293: invokespecial #125                // Method java/lang/StringBuilder."<init>":()V
+       296: ldc_w         #433                // String Retry attempt
+       299: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+       302: iload         7
+       304: iconst_1
+       305: iadd
+       306: invokevirtual #134                // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+       309: ldc_w         #711                // String  for starting DaemonService in server process
+       312: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+       315: invokevirtual #137                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+       318: invokestatic  #140                // Method org/alok/engine/utils/Slog.d:(Ljava/lang/String;Ljava/lang/String;)I
+       321: pop
+       322: iload         7
+       324: iconst_1
+       325: if_icmpne     340
+       328: ldc           #169                // String Alok
+       330: ldc_w         #713                // String First retry for server process - continuing immediately
+       333: invokestatic  #140                // Method org/alok/engine/utils/Slog.d:(Ljava/lang/String;Ljava/lang/String;)I
+       336: pop
+       337: goto          349
+       340: aload_0
+       341: aload         4
+       343: iload         7
+       345: invokevirtual #715                // Method scheduleDelayedServerRetry:(Landroid/content/Intent;I)V
+       348: return
+       349: invokestatic  #443                // Method org/alok/engine/utils/compat/BuildCompat.isOreo:()Z
+       352: ifeq          379
+       355: invokestatic  #342                // Method getContext:()Landroid/content/Context;
+       358: aload         4
+       360: invokevirtual #448                // Method android/content/Context.startForegroundService:(Landroid/content/Intent;)Landroid/content/ComponentName;
+       363: pop
+       364: ldc           #169                // String Alok
+       366: ldc_w         #718                // String Started DaemonService as foreground service in server process
+       369: invokestatic  #140                // Method org/alok/engine/utils/Slog.d:(Ljava/lang/String;Ljava/lang/String;)I
+       372: pop
+       373: iconst_1
+       374: istore        5
+       376: goto          400
+       379: invokestatic  #342                // Method getContext:()Landroid/content/Context;
+       382: aload         4
+       384: invokevirtual #454                // Method android/content/Context.startService:(Landroid/content/Intent;)Landroid/content/ComponentName;
+       387: pop
+       388: ldc           #169                // String Alok
+       390: ldc_w         #720                // String Started DaemonService as regular service in server process
+       393: invokestatic  #140                // Method org/alok/engine/utils/Slog.d:(Ljava/lang/String;Ljava/lang/String;)I
+       396: pop
+       397: iconst_1
+       398: istore        5
+       400: goto          638
+       403: astore        8
+       405: aload         8
+       407: invokevirtual #461                // Method java/lang/SecurityException.getMessage:()Ljava/lang/String;
+       410: ifnull        507
+       413: aload         8
+       415: invokevirtual #461                // Method java/lang/SecurityException.getMessage:()Ljava/lang/String;
+       418: ldc_w         #462                // String MissingForegroundServiceTypeException
+       421: invokevirtual #397                // Method java/lang/String.contains:(Ljava/lang/CharSequence;)Z
+       424: ifeq          507
+       427: ldc           #169                // String Alok
+       429: ldc_w         #722                // String Foreground service type missing in server process, falling back to regular service
+       432: invokestatic  #173                // Method org/alok/engine/utils/Slog.w:(Ljava/lang/String;Ljava/lang/String;)I
+       435: pop
+       436: invokestatic  #342                // Method getContext:()Landroid/content/Context;
+       439: aload         4
+       441: invokevirtual #454                // Method android/content/Context.startService:(Landroid/content/Intent;)Landroid/content/ComponentName;
+       444: pop
+       445: ldc           #169                // String Alok
+       447: ldc_w         #724                // String Started DaemonService as regular service in server process (fallback)
+       450: invokestatic  #140                // Method org/alok/engine/utils/Slog.d:(Ljava/lang/String;Ljava/lang/String;)I
+       453: pop

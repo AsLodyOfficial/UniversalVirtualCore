@@ -1,0 +1,14 @@
+# Android / Gradle ignores
+.gradle/
+build/
+*.dex
+*.class
+*.aar
+*.apk
+.cxx/
+.idea/
+*.iml
+local.properties
+.transforms/
+bin/
+__pycache__/

@@ -1,0 +1,128 @@
+﻿09-26 12:06:42.075   413   413 I ImeTracker: com.zynoxadmin:727de93: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-26 12:06:42.079  7286  7286 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1532 onStartInput(EditorInfo{EditorInfo{packageName=com.zynoxadmin, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+09-26 12:06:42.882   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/data/com.zynoxadmin/] -> [/data/data/com.pubg.imobile/]
+09-26 12:06:42.882   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user/0/com.zynoxadmin/] -> [/data/user/0/com.pubg.imobile/]
+09-26 12:06:42.882   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user_de/0/com.zynoxadmin/] -> [/data/user_de/0/com.pubg.imobile/]
+09-26 12:06:42.884   413   413 I AlokDexInjector: Auto-installing package into virtual container before launch: com.pubg.imobile (userId=0)
+09-26 12:06:42.914   413   413 I com.zynoxadmin: AssetManager2(0x7cdc356758) locale list changing from [] to [en-US]
+09-26 12:06:42.958   507   539 W System.err: java.lang.ClassCastException: Couldn't convert result of type android.content.pm.PackageParser to a.k
+09-26 12:06:42.958   507   539 W System.err: 	at org.alok.engine.utils.compat.PackageParserCompat.createParser(SourceFile:1)
+09-26 12:06:42.958   507   539 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.parserApk(SourceFile:1)
+09-26 12:06:42.958   507   539 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUserLocked(SourceFile:347)
+09-26 12:06:42.958   507   539 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUser(SourceFile:25)
+09-26 12:06:42.958   507   539 W System.err: 	at org.alok.engine.core.system.pm.IBPackageManagerService$Stub.onTransact(SourceFile:149)
+09-26 12:06:42.960   413   413 I AlokDexInjector: Auto-installing package into virtual container before launch: com.pubg.imobile (userId=0)
+09-26 12:06:42.964   413   413 I com.zynoxadmin: AssetManager2(0x7cdc35f0d8) locale list changing from [] to [en-US]
+09-26 12:06:42.991   507   539 W System.err: java.lang.ClassCastException: Couldn't convert result of type android.content.pm.PackageParser to a.k
+09-26 12:06:42.991   507   539 W System.err: 	at org.alok.engine.utils.compat.PackageParserCompat.createParser(SourceFile:1)
+09-26 12:06:42.991   507   539 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.parserApk(SourceFile:1)
+09-26 12:06:42.991   507   539 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUserLocked(SourceFile:347)
+09-26 12:06:42.991   507   539 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUser(SourceFile:25)
+09-26 12:06:42.991   507   539 W System.err: 	at org.alok.engine.core.system.pm.IBPackageManagerService$Stub.onTransact(SourceFile:149)
+09-26 12:06:42.998   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/data/com.zynoxadmin/] -> [/data/data/com.pubg.imobile/]
+09-26 12:06:42.998   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user/0/com.zynoxadmin/] -> [/data/user/0/com.pubg.imobile/]
+09-26 12:06:42.998   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user_de/0/com.zynoxadmin/] -> [/data/user_de/0/com.pubg.imobile/]
+09-26 12:06:42.998   413   413 I VCore-Cloaker: Applied sandbox cloaking for guest: com.pubg.imobile
+09-26 12:06:43.056  1633  1633 I m.zynoxadmin:p0: Using generational CollectorTypeCC GC.
+09-26 12:06:43.064  1633  1633 E m.zynoxadmin:p0: BBinder_init Processname  com.zynoxadmin:p0  
+09-26 12:06:43.064  1633  1633 E m.zynoxadmin:p0: BBinder_init hasGetProcessName  com.zynoxadmin:p0
+09-26 12:06:43.091  1633  1633 I m.zynoxadmin:p0: AssetManager2(0x7cdc342258) locale list changing from [] to [en-US]
+09-26 12:06:43.104  1633  1633 I AlokDexInjector: Initializing Alok virtual engine attachBaseContext phase...
+09-26 12:06:43.105  1633  1633 I AlokDexInjector: Alok engine classes already present in ClassLoader - unified mode.
+09-26 12:06:43.106  1633  1633 I AlokDexInjector: Loaded libalok.so native engine successfully.
+09-26 12:06:43.107  1633  1633 E ativeCore: HiddenAPI: Didn't find setHiddenApiExemptions in any form
+09-26 12:06:43.107  1633  1633 W Alok    : Could not access ResourcesManager overlay field: No field mDisableOverlayLoading in class Landroid/app/ResourcesManager; (declaration of 'android.app.ResourcesManager' appears in /system/framework/framework.jar)
+09-26 12:06:43.107  1633  1633 W Alok    : Could not access WindowManager leak field: No field mIgnoreWindowLeaks in class Landroid/view/WindowManager; (declaration of 'android.view.WindowManager' appears in /system/framework/framework.jar!classes4.dex)
+09-26 12:06:43.133  1633  1633 W WorkManagerProxy: 	at org.alok.engine.fake.service.WorkManagerProxy.getWho(SourceFile:9)
+09-26 12:06:43.133  1633  1633 W WorkManagerProxy: 	at org.alok.engine.fake.hook.ClassInvocationStub.injectHook(SourceFile:0)
+09-26 12:06:43.133  1633  1633 W WorkManagerProxy: 	at org.alok.engine.fake.hook.HookManager.injectAll(SourceFile:18)
+09-26 12:06:43.133  1633  1633 W WorkManagerProxy: 	at org.alok.engine.fake.hook.HookManager.init(SourceFile:739)
+09-26 12:06:43.133  1633  1633 W WorkManagerProxy: 	at org.alok.engine.Alok.doAttachBaseContext(SourceFile:473)
+09-26 12:06:43.133  1633  1633 W WorkManagerProxy: 	at com.universal.virtualcore.core.AlokDexInjector.injectAndAttach(SourceFile:280)
+09-26 12:06:43.133  1633  1633 W WorkManagerProxy: 	at com.zynoxadmin.BoxApplication.attachBaseContext(SourceFile:24)
+09-26 12:06:43.152  1633  1633 I AlokDexInjector: Alok virtual engine attached successfully (<10ms).
+09-26 12:06:43.154  1633  1633 I UniversalVirtualCore-Native: Alok NativeBridge v3.0 initialized: API 36, PageSize=4096 (4KB Mode), Cloaking Active
+09-26 12:06:43.154  1633  1633 I UniversalVirtualCore-Native: DiagnosticEngine initialized at /data/user/0/com.zynoxadmin/files/diagnostics
+09-26 12:06:43.169  1633  1633 I m.zynoxadmin:p0: AssetManager2(0x7cdc342898) locale list changing from [] to [en-US]
+09-26 12:06:43.170  1633  1696 I GameManager: __progname=com.zynoxadmin:p0
+09-26 12:06:43.252  1633  1689 I AlokDexInjector: Executing Alok engine doCreate()...
+09-26 12:06:43.257  1633  1689 I AlokDexInjector: Alok engine doCreate() completed successfully. Services ready!
+09-26 12:06:43.266  2743  3039 I ActivityTaskManager: Displayed com.zynoxadmin/com.universal.virtualcore.stub.StubActivity$P0 for user 0: +243ms
+09-26 12:06:43.293  1633  1633 I ImeTracker: com.zynoxadmin:12f773b1: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-26 12:06:43.298  7286  7286 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1532 onStartInput(EditorInfo{EditorInfo{packageName=com.zynoxadmin, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+09-26 12:06:47.064   413   413 I ImeTracker: com.zynoxadmin:36446acb: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-26 12:06:47.067  7286  7286 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1532 onStartInput(EditorInfo{EditorInfo{packageName=com.zynoxadmin, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+09-26 12:07:07.860   413   413 I ImeTracker: com.zynoxadmin:2625213: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-26 12:07:07.864  7286  7286 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1532 onStartInput(EditorInfo{EditorInfo{packageName=com.zynoxadmin, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+09-26 12:07:08.649   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/data/com.zynoxadmin/] -> [/data/data/com.pubg.imobile/]
+09-26 12:07:08.649   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user/0/com.zynoxadmin/] -> [/data/user/0/com.pubg.imobile/]
+09-26 12:07:08.649   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user_de/0/com.zynoxadmin/] -> [/data/user_de/0/com.pubg.imobile/]
+09-26 12:07:08.651   413   413 I AlokDexInjector: Auto-installing package into virtual container before launch: com.pubg.imobile (userId=0)
+09-26 12:07:08.663   413   413 I com.zynoxadmin: AssetManager2(0x7cdc369678) locale list changing from [] to [en-US]
+09-26 12:07:08.700   507   540 W System.err: java.lang.ClassCastException: Couldn't convert result of type android.content.pm.PackageParser to a.k
+09-26 12:07:08.700   507   540 W System.err: 	at org.alok.engine.utils.compat.PackageParserCompat.createParser(SourceFile:1)
+09-26 12:07:08.700   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.parserApk(SourceFile:1)
+09-26 12:07:08.700   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUserLocked(SourceFile:347)
+09-26 12:07:08.701   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUser(SourceFile:25)
+09-26 12:07:08.701   507   540 W System.err: 	at org.alok.engine.core.system.pm.IBPackageManagerService$Stub.onTransact(SourceFile:149)
+09-26 12:07:08.702   413   413 I AlokDexInjector: Auto-installing package into virtual container before launch: com.pubg.imobile (userId=0)
+09-26 12:07:08.707   413   413 I com.zynoxadmin: AssetManager2(0x7cdc368098) locale list changing from [] to [en-US]
+09-26 12:07:08.736   507   540 W System.err: java.lang.ClassCastException: Couldn't convert result of type android.content.pm.PackageParser to a.k
+09-26 12:07:08.736   507   540 W System.err: 	at org.alok.engine.utils.compat.PackageParserCompat.createParser(SourceFile:1)
+09-26 12:07:08.736   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.parserApk(SourceFile:1)
+09-26 12:07:08.736   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUserLocked(SourceFile:347)
+09-26 12:07:08.736   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUser(SourceFile:25)
+09-26 12:07:08.736   507   540 W System.err: 	at org.alok.engine.core.system.pm.IBPackageManagerService$Stub.onTransact(SourceFile:149)
+09-26 12:07:08.739   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/data/com.zynoxadmin/] -> [/data/data/com.pubg.imobile/]
+09-26 12:07:08.739   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user/0/com.zynoxadmin/] -> [/data/user/0/com.pubg.imobile/]
+09-26 12:07:08.739   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user_de/0/com.zynoxadmin/] -> [/data/user_de/0/com.pubg.imobile/]
+09-26 12:07:08.739   413   413 I VCore-Cloaker: Applied sandbox cloaking for guest: com.pubg.imobile
+09-26 12:07:08.842  2743  3039 I ActivityTaskManager: Displayed com.zynoxadmin/com.universal.virtualcore.stub.StubActivity$P0 for user 0: +89ms
+09-26 12:07:08.849  1633  1633 I ImeTracker: com.zynoxadmin:611a3c95: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-26 12:07:08.850  7286  7286 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1532 onStartInput(EditorInfo{EditorInfo{packageName=com.zynoxadmin, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+09-26 12:07:14.524   413   413 I ImeTracker: com.zynoxadmin:630ac8ba: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-26 12:07:14.525  7286  7286 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1532 onStartInput(EditorInfo{EditorInfo{packageName=com.zynoxadmin, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+09-26 12:07:41.750   413   413 W com.zynoxadmin: type=1400 audit(0.0:57536): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=488 scontext=u:r:untrusted_app_27:s0:c72,c258,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0 app=com.zynoxadmin
+09-26 12:07:41.754   413   413 W com.zynoxadmin: type=1400 audit(0.0:57537): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=488 scontext=u:r:untrusted_app_27:s0:c72,c258,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0 app=com.zynoxadmin
+09-26 12:07:42.687   413   413 I ImeTracker: com.zynoxadmin:fdf7a60c: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-26 12:07:42.689  7286  7286 D InlineSuggestionSessionController: notifyOnStartInput: com.zynoxadmin, 0
+09-26 12:07:42.690  7286  7286 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1532 onStartInput(EditorInfo{EditorInfo{packageName=com.zynoxadmin, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+09-26 12:07:43.473   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/data/com.zynoxadmin/] -> [/data/data/com.pubg.imobile/]
+09-26 12:07:43.474   413   413 D ativeCore: IO::addRule /data/data/com.zynoxadmin/ -> /data/data/com.pubg.imobile/
+09-26 12:07:43.474   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user/0/com.zynoxadmin/] -> [/data/user/0/com.pubg.imobile/]
+09-26 12:07:43.474   413   413 D ativeCore: IO::addRule /data/user/0/com.zynoxadmin/ -> /data/user/0/com.pubg.imobile/
+09-26 12:07:43.474   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user_de/0/com.zynoxadmin/] -> [/data/user_de/0/com.pubg.imobile/]
+09-26 12:07:43.474   413   413 D ativeCore: IO::addRule /data/user_de/0/com.zynoxadmin/ -> /data/user_de/0/com.pubg.imobile/
+09-26 12:07:43.475   413   413 I AlokDexInjector: Auto-installing package into virtual container before launch: com.pubg.imobile (userId=0)
+09-26 12:07:43.481   413   413 I com.zynoxadmin: AssetManager2(0x7cdc360078) locale list changing from [] to [en-US]
+09-26 12:07:43.521   507   540 W System.err: java.lang.ClassCastException: Couldn't convert result of type android.content.pm.PackageParser to a.k
+09-26 12:07:43.522   507   540 W System.err: 	at org.alok.engine.utils.compat.PackageParserCompat.createParser(SourceFile:1)
+09-26 12:07:43.522   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.parserApk(SourceFile:1)
+09-26 12:07:43.522   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUserLocked(SourceFile:347)
+09-26 12:07:43.522   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUser(SourceFile:25)
+09-26 12:07:43.522   507   540 W System.err: 	at org.alok.engine.core.system.pm.IBPackageManagerService$Stub.onTransact(SourceFile:149)
+09-26 12:07:43.522   507   540 D BPackageManagerService: install finish: 32ms
+09-26 12:07:43.524   413   413 I AlokDexInjector: Auto-installing package into virtual container before launch: com.pubg.imobile (userId=0)
+09-26 12:07:43.529   413   413 I com.zynoxadmin: AssetManager2(0x7cdc3657f8) locale list changing from [] to [en-US]
+09-26 12:07:43.567   507   540 W System.err: java.lang.ClassCastException: Couldn't convert result of type android.content.pm.PackageParser to a.k
+09-26 12:07:43.567   507   540 W System.err: 	at org.alok.engine.utils.compat.PackageParserCompat.createParser(SourceFile:1)
+09-26 12:07:43.567   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.parserApk(SourceFile:1)
+09-26 12:07:43.567   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUserLocked(SourceFile:347)
+09-26 12:07:43.567   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUser(SourceFile:25)
+09-26 12:07:43.567   507   540 W System.err: 	at org.alok.engine.core.system.pm.IBPackageManagerService$Stub.onTransact(SourceFile:149)
+09-26 12:07:43.568   507   540 D BPackageManagerService: install finish: 31ms
+09-26 12:07:43.572   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/data/com.zynoxadmin/] -> [/data/data/com.pubg.imobile/]
+09-26 12:07:43.572   413   413 D ativeCore: IO::addRule /data/data/com.zynoxadmin/ -> /data/data/com.pubg.imobile/
+09-26 12:07:43.572   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user/0/com.zynoxadmin/] -> [/data/user/0/com.pubg.imobile/]
+09-26 12:07:43.572   413   413 D ativeCore: IO::addRule /data/user/0/com.zynoxadmin/ -> /data/user/0/com.pubg.imobile/
+09-26 12:07:43.572   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user_de/0/com.zynoxadmin/] -> [/data/user_de/0/com.pubg.imobile/]
+09-26 12:07:43.572   413   413 D ativeCore: IO::addRule /data/user_de/0/com.zynoxadmin/ -> /data/user_de/0/com.pubg.imobile/
+09-26 12:07:43.572   413   413 I VCore-Cloaker: Applied sandbox cloaking for guest: com.pubg.imobile
+09-26 12:07:43.626   413   413 W com.zynoxadmin: type=1400 audit(0.0:57538): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=488 scontext=u:r:untrusted_app_27:s0:c72,c258,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0 app=com.zynoxadmin
+09-26 12:07:43.630   413   413 W com.zynoxadmin: type=1400 audit(0.0:57539): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=488 scontext=u:r:untrusted_app_27:s0:c72,c258,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0 app=com.zynoxadmin
+09-26 12:07:43.666  1633  1633 W m.zynoxadmin:p0: type=1400 audit(0.0:57540): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=488 scontext=u:r:untrusted_app_27:s0:c72,c258,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0 app=com.zynoxadmin
+09-26 12:07:43.666  1633  1633 W m.zynoxadmin:p0: type=1400 audit(0.0:57541): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=488 scontext=u:r:untrusted_app_27:s0:c72,c258,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0 app=com.zynoxadmin
+09-26 12:07:43.694  2743  3039 I ActivityTaskManager: Displayed com.zynoxadmin/com.universal.virtualcore.stub.StubActivity$P0 for user 0: +104ms
+09-26 12:07:43.710  1633  1633 I ImeTracker: com.zynoxadmin:6bde701: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-26 12:07:43.712  7286  7286 D InlineSuggestionSessionController: notifyOnStartInput: com.zynoxadmin, 0
+09-26 12:07:43.712  7286  7286 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1532 onStartInput(EditorInfo{EditorInfo{packageName=com.zynoxadmin, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)

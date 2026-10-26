@@ -1,0 +1,259 @@
+﻿Compiled from "ContentProviderDelegate.java"
+public class org.alok.engine.fake.delegate.ContentProviderDelegate {
+  public static final java.lang.String TAG;
+
+  private static java.util.Set<java.lang.String> sInjected;
+
+  public org.alok.engine.fake.delegate.ContentProviderDelegate();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void update(java.lang.Object, java.lang.String);
+    Code:
+       0: invokestatic  #7                  // Method org/alok/engine/utils/compat/BuildCompat.isOreo:()Z
+       3: ifeq          19
+       6: aload_0
+       7: invokestatic  #13                 // Method org/alok/android/content/BRContentProviderHolderOreo.get:(Ljava/lang/Object;)Lorg/alok/android/content/ContentProviderHolderOreoContext;
+      10: invokeinterface #19,  1           // InterfaceMethod org/alok/android/content/ContentProviderHolderOreoContext.provider:()Landroid/os/IInterface;
+      15: astore_2
+      16: goto          29
+      19: aload_0
+      20: invokestatic  #25                 // Method org/alok/android/app/BRIActivityManagerContentProviderHolder.get:(Ljava/lang/Object;)Lorg/alok/android/app/IActivityManagerContentProviderHolderContext;
+      23: invokeinterface #30,  1           // InterfaceMethod org/alok/android/app/IActivityManagerContentProviderHolderContext.provider:()Landroid/os/IInterface;
+      28: astore_2
+      29: aload_2
+      30: instanceof    #33                 // class java/lang/reflect/Proxy
+      33: ifeq          37
+      36: return
+      37: aload_1
+      38: astore        4
+      40: iconst_m1
+      41: istore        5
+      43: aload         4
+      45: invokevirtual #35                 // Method java/lang/String.hashCode:()I
+      48: lookupswitch  { // 5
+
+            -414818326: 148
+
+            -105006651: 164
+
+             103772132: 100
+
+             783201304: 116
+
+            1434631203: 132
+               default: 177
+          }
+     100: aload         4
+     102: ldc           #41                 // String media
+     104: invokevirtual #43                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     107: ifeq          177
+     110: iconst_0
+     111: istore        5
+     113: goto          177
+     116: aload         4
+     118: ldc           #47                 // String telephony
+     120: invokevirtual #43                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     123: ifeq          177
+     126: iconst_1
+     127: istore        5
+     129: goto          177
+     132: aload         4
+     134: ldc           #49                 // String settings
+     136: invokevirtual #43                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     139: ifeq          177
+     142: iconst_2
+     143: istore        5
+     145: goto          177
+     148: aload         4
+     150: ldc           #51                 // String com.google.android.gsf.gservices
+     152: invokevirtual #43                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     155: ifeq          177
+     158: iconst_3
+     159: istore        5
+     161: goto          177
+     164: aload         4
+     166: ldc           #53                 // String gservices
+     168: invokevirtual #43                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     171: ifeq          177
+     174: iconst_4
+     175: istore        5
+     177: iload         5
+     179: tableswitch   { // 0 to 4
+
+                     0: 212
+
+                     1: 212
+
+                     2: 212
+
+                     3: 212
+
+                     4: 212
+               default: 230
+          }
+     212: new           #55                 // class org/alok/engine/fake/service/context/providers/SystemProviderStub
+     215: dup
+     216: invokespecial #57                 // Method org/alok/engine/fake/service/context/providers/SystemProviderStub."<init>":()V
+     219: aload_2
+     220: invokestatic  #58                 // Method org/alok/engine/Alok.getHostPkg:()Ljava/lang/String;
+     223: invokevirtual #64                 // Method org/alok/engine/fake/service/context/providers/SystemProviderStub.wrapper:(Landroid/os/IInterface;Ljava/lang/String;)Landroid/os/IInterface;
+     226: astore_3
+     227: goto          245
+     230: new           #68                 // class org/alok/engine/fake/service/context/providers/ContentProviderStub
+     233: dup
+     234: invokespecial #70                 // Method org/alok/engine/fake/service/context/providers/ContentProviderStub."<init>":()V
+     237: aload_2
+     238: invokestatic  #58                 // Method org/alok/engine/Alok.getHostPkg:()Ljava/lang/String;
+     241: invokevirtual #71                 // Method org/alok/engine/fake/service/context/providers/ContentProviderStub.wrapper:(Landroid/os/IInterface;Ljava/lang/String;)Landroid/os/IInterface;
+     244: astore_3
+     245: invokestatic  #7                  // Method org/alok/engine/utils/compat/BuildCompat.isOreo:()Z
+     248: ifeq          264
+     251: aload_0
+     252: invokestatic  #13                 // Method org/alok/android/content/BRContentProviderHolderOreo.get:(Ljava/lang/Object;)Lorg/alok/android/content/ContentProviderHolderOreoContext;
+     255: aload_3
+     256: invokeinterface #72,  2           // InterfaceMethod org/alok/android/content/ContentProviderHolderOreoContext._set_provider:(Ljava/lang/Object;)V
+     261: goto          274
+     264: aload_0
+     265: invokestatic  #25                 // Method org/alok/android/app/BRIActivityManagerContentProviderHolder.get:(Ljava/lang/Object;)Lorg/alok/android/app/IActivityManagerContentProviderHolderContext;
+     268: aload_3
+     269: invokeinterface #76,  2           // InterfaceMethod org/alok/android/app/IActivityManagerContentProviderHolderContext._set_provider:(Ljava/lang/Object;)V
+     274: return
+
+  public static void init();
+    Code:
+       0: invokestatic  #77                 // Method clearSettingProvider:()V
+       3: invokestatic  #82                 // Method org/alok/engine/Alok.getContext:()Landroid/content/Context;
+       6: invokevirtual #86                 // Method android/content/Context.getContentResolver:()Landroid/content/ContentResolver;
+       9: ldc           #92                 // String content://settings
+      11: invokestatic  #94                 // Method android/net/Uri.parse:(Ljava/lang/String;)Landroid/net/Uri;
+      14: ldc           #100                // String
+      16: aconst_null
+      17: aconst_null
+      18: invokevirtual #102                // Method android/content/ContentResolver.call:(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
+      21: pop
+      22: invokestatic  #108                // Method org/alok/engine/Alok.mainThread:()Ljava/lang/Object;
+      25: astore_0
+      26: aload_0
+      27: invokestatic  #112                // Method org/alok/android/app/BRActivityThread.get:(Ljava/lang/Object;)Lorg/alok/android/app/ActivityThreadContext;
+      30: invokeinterface #117,  1          // InterfaceMethod org/alok/android/app/ActivityThreadContext.mProviderMap:()Ljava/util/Map;
+      35: checkcast     #123                // class android/util/ArrayMap
+      38: astore_1
+      39: aload_1
+      40: invokevirtual #125                // Method android/util/ArrayMap.values:()Ljava/util/Collection;
+      43: invokeinterface #129,  1          // InterfaceMethod java/util/Collection.iterator:()Ljava/util/Iterator;
+      48: astore_2
+      49: aload_2
+      50: invokeinterface #135,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+      55: ifeq          176
+      58: aload_2
+      59: invokeinterface #140,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+      64: astore_3
+      65: aload_3
+      66: invokestatic  #143                // Method org/alok/android/app/BRActivityThreadProviderClientRecordP.get:(Ljava/lang/Object;)Lorg/alok/android/app/ActivityThreadProviderClientRecordPContext;
+      69: invokeinterface #148,  1          // InterfaceMethod org/alok/android/app/ActivityThreadProviderClientRecordPContext.mNames:()[Ljava/lang/String;
+      74: astore        4
+      76: aload         4
+      78: ifnull        49
+      81: aload         4
+      83: arraylength
+      84: ifgt          90
+      87: goto          49
+      90: aload         4
+      92: iconst_0
+      93: aaload
+      94: astore        5
+      96: getstatic     #154                // Field sInjected:Ljava/util/Set;
+      99: aload         5
+     101: invokeinterface #158,  2          // InterfaceMethod java/util/Set.contains:(Ljava/lang/Object;)Z
+     106: ifne          173
+     109: getstatic     #154                // Field sInjected:Ljava/util/Set;
+     112: aload         5
+     114: invokeinterface #163,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     119: pop
+     120: aload_3
+     121: invokestatic  #143                // Method org/alok/android/app/BRActivityThreadProviderClientRecordP.get:(Ljava/lang/Object;)Lorg/alok/android/app/ActivityThreadProviderClientRecordPContext;
+     124: invokeinterface #166,  1          // InterfaceMethod org/alok/android/app/ActivityThreadProviderClientRecordPContext.mProvider:()Landroid/os/IInterface;
+     129: astore        6
+     131: aload_3
+     132: invokestatic  #143                // Method org/alok/android/app/BRActivityThreadProviderClientRecordP.get:(Ljava/lang/Object;)Lorg/alok/android/app/ActivityThreadProviderClientRecordPContext;
+     135: new           #68                 // class org/alok/engine/fake/service/context/providers/ContentProviderStub
+     138: dup
+     139: invokespecial #70                 // Method org/alok/engine/fake/service/context/providers/ContentProviderStub."<init>":()V
+     142: aload         6
+     144: invokestatic  #58                 // Method org/alok/engine/Alok.getHostPkg:()Ljava/lang/String;
+     147: invokevirtual #71                 // Method org/alok/engine/fake/service/context/providers/ContentProviderStub.wrapper:(Landroid/os/IInterface;Ljava/lang/String;)Landroid/os/IInterface;
+     150: invokeinterface #169,  2          // InterfaceMethod org/alok/android/app/ActivityThreadProviderClientRecordPContext._set_mProvider:(Ljava/lang/Object;)V
+     155: aload_3
+     156: invokestatic  #143                // Method org/alok/android/app/BRActivityThreadProviderClientRecordP.get:(Ljava/lang/Object;)Lorg/alok/android/app/ActivityThreadProviderClientRecordPContext;
+     159: iconst_1
+     160: anewarray     #36                 // class java/lang/String
+     163: dup
+     164: iconst_0
+     165: aload         5
+     167: aastore
+     168: invokeinterface #172,  2          // InterfaceMethod org/alok/android/app/ActivityThreadProviderClientRecordPContext._set_mNames:(Ljava/lang/Object;)V
+     173: goto          49
+     176: return
+
+  public static void clearSettingProvider();
+    Code:
+       0: invokestatic  #175                // Method org/alok/android/providers/BRSettingsSystem.get:()Lorg/alok/android/providers/SettingsSystemStatic;
+       3: invokeinterface #180,  1          // InterfaceMethod org/alok/android/providers/SettingsSystemStatic.sNameValueCache:()Ljava/lang/Object;
+       8: astore_0
+       9: aload_0
+      10: ifnull        17
+      13: aload_0
+      14: invokestatic  #185                // Method clearContentProvider:(Ljava/lang/Object;)V
+      17: invokestatic  #188                // Method org/alok/android/providers/BRSettingsSecure.get:()Lorg/alok/android/providers/SettingsSecureStatic;
+      20: invokeinterface #193,  1          // InterfaceMethod org/alok/android/providers/SettingsSecureStatic.sNameValueCache:()Ljava/lang/Object;
+      25: astore_0
+      26: aload_0
+      27: ifnull        34
+      30: aload_0
+      31: invokestatic  #185                // Method clearContentProvider:(Ljava/lang/Object;)V
+      34: getstatic     #196                // Field android/os/Build$VERSION.SDK_INT:I
+      37: bipush        17
+      39: if_icmplt     65
+      42: invokestatic  #204                // Method org/alok/android/providers/BRSettingsGlobal.getRealClass:()Ljava/lang/Class;
+      45: ifnull        65
+      48: invokestatic  #210                // Method org/alok/android/providers/BRSettingsGlobal.get:()Lorg/alok/android/providers/SettingsGlobalStatic;
+      51: invokeinterface #213,  1          // InterfaceMethod org/alok/android/providers/SettingsGlobalStatic.sNameValueCache:()Ljava/lang/Object;
+      56: astore_0
+      57: aload_0
+      58: ifnull        65
+      61: aload_0
+      62: invokestatic  #185                // Method clearContentProvider:(Ljava/lang/Object;)V
+      65: return
+
+  private static void clearContentProvider(java.lang.Object);
+    Code:
+       0: invokestatic  #7                  // Method org/alok/engine/utils/compat/BuildCompat.isOreo:()Z
+       3: ifeq          33
+       6: aload_0
+       7: invokestatic  #216                // Method org/alok/android/providers/BRSettingsNameValueCacheOreo.get:(Ljava/lang/Object;)Lorg/alok/android/providers/SettingsNameValueCacheOreoContext;
+      10: invokeinterface #221,  1          // InterfaceMethod org/alok/android/providers/SettingsNameValueCacheOreoContext.mProviderHolder:()Ljava/lang/Object;
+      15: astore_1
+      16: aload_1
+      17: ifnull        30
+      20: aload_1
+      21: invokestatic  #226                // Method org/alok/android/providers/BRSettingsContentProviderHolder.get:(Ljava/lang/Object;)Lorg/alok/android/providers/SettingsContentProviderHolderContext;
+      24: aconst_null
+      25: invokeinterface #231,  2          // InterfaceMethod org/alok/android/providers/SettingsContentProviderHolderContext._set_mContentProvider:(Ljava/lang/Object;)V
+      30: goto          43
+      33: aload_0
+      34: invokestatic  #236                // Method org/alok/android/providers/BRSettingsNameValueCache.get:(Ljava/lang/Object;)Lorg/alok/android/providers/SettingsNameValueCacheContext;
+      37: aconst_null
+      38: invokeinterface #241,  2          // InterfaceMethod org/alok/android/providers/SettingsNameValueCacheContext._set_mContentProvider:(Ljava/lang/Object;)V
+      43: return
+
+  static {};
+    Code:
+       0: new           #244                // class java/util/HashSet
+       3: dup
+       4: invokespecial #246                // Method java/util/HashSet."<init>":()V
+       7: putstatic     #154                // Field sInjected:Ljava/util/Set;
+      10: return
+}

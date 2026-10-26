@@ -1,0 +1,624 @@
+﻿Compiled from "ProxyContentProvider.java"
+public class org.alok.engine.proxy.ProxyContentProvider extends android.content.ContentProvider {
+  static final boolean $assertionsDisabled;
+
+  public org.alok.engine.proxy.ProxyContentProvider();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method android/content/ContentProvider."<init>":()V
+       4: return
+
+  public boolean onCreate();
+    Code:
+       0: aload_0
+       1: aload_0
+       2: invokevirtual #7                  // Method getContext:()Landroid/content/Context;
+       5: aconst_null
+       6: invokevirtual #13                 // Method fixAuthorities:(Landroid/content/Context;Landroid/content/pm/ProviderInfo;)V
+       9: iconst_0
+      10: ireturn
+
+  public void attachInfo(android.content.Context, android.content.pm.ProviderInfo);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: aload_2
+       3: invokespecial #17                 // Method android/content/ContentProvider.attachInfo:(Landroid/content/Context;Landroid/content/pm/ProviderInfo;)V
+       6: aload_0
+       7: aload_1
+       8: aload_2
+       9: invokevirtual #13                 // Method fixAuthorities:(Landroid/content/Context;Landroid/content/pm/ProviderInfo;)V
+      12: return
+
+  private void fixAuthorities();
+    Code:
+       0: aload_0
+       1: aload_0
+       2: invokevirtual #7                  // Method getContext:()Landroid/content/Context;
+       5: aconst_null
+       6: invokevirtual #13                 // Method fixAuthorities:(Landroid/content/Context;Landroid/content/pm/ProviderInfo;)V
+       9: return
+
+  private void fixAuthorities(android.content.Context, android.content.pm.ProviderInfo);
+    Code:
+       0: new           #20                 // class java/util/LinkedHashSet
+       3: dup
+       4: invokespecial #22                 // Method java/util/LinkedHashSet."<init>":()V
+       7: astore_3
+       8: aload_2
+       9: ifnull        85
+      12: aload_2
+      13: getfield      #23                 // Field android/content/pm/ProviderInfo.authority:Ljava/lang/String;
+      16: ifnull        85
+      19: aload_2
+      20: getfield      #23                 // Field android/content/pm/ProviderInfo.authority:Ljava/lang/String;
+      23: ldc           #29                 // String ;
+      25: invokevirtual #31                 // Method java/lang/String.split:(Ljava/lang/String;)[Ljava/lang/String;
+      28: astore        4
+      30: aload         4
+      32: astore        5
+      34: aload         5
+      36: arraylength
+      37: istore        6
+      39: iconst_0
+      40: istore        7
+      42: iload         7
+      44: iload         6
+      46: if_icmpge     85
+      49: aload         5
+      51: iload         7
+      53: aaload
+      54: astore        8
+      56: aload         8
+      58: invokevirtual #37                 // Method java/lang/String.trim:()Ljava/lang/String;
+      61: invokevirtual #41                 // Method java/lang/String.isEmpty:()Z
+      64: ifne          79
+      67: aload_3
+      68: aload         8
+      70: invokevirtual #37                 // Method java/lang/String.trim:()Ljava/lang/String;
+      73: invokeinterface #45,  2           // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+      78: pop
+      79: iinc          7, 1
+      82: goto          42
+      85: invokestatic  #51                 // Method org/alok/engine/Alok.getHostPkg:()Ljava/lang/String;
+      88: astore        4
+      90: aload         4
+      92: ifnull        103
+      95: aload         4
+      97: invokevirtual #41                 // Method java/lang/String.isEmpty:()Z
+     100: ifeq          113
+     103: aload_1
+     104: ifnull        113
+     107: aload_1
+     108: invokevirtual #56                 // Method android/content/Context.getPackageName:()Ljava/lang/String;
+     111: astore        4
+     113: aload         4
+     115: ifnull        174
+     118: aload         4
+     120: invokevirtual #41                 // Method java/lang/String.isEmpty:()Z
+     123: ifne          174
+     126: iconst_0
+     127: istore        5
+     129: iload         5
+     131: bipush        50
+     133: if_icmpge     174
+     136: aload_3
+     137: new           #61                 // class java/lang/StringBuilder
+     140: dup
+     141: invokespecial #63                 // Method java/lang/StringBuilder."<init>":()V
+     144: aload         4
+     146: invokevirtual #64                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     149: ldc           #68                 // String .proxy_content_provider_
+     151: invokevirtual #64                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     154: iload         5
+     156: invokevirtual #70                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+     159: invokevirtual #73                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     162: invokeinterface #45,  2           // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     167: pop
+     168: iinc          5, 1
+     171: goto          129
+     174: iconst_0
+     175: istore        5
+     177: iload         5
+     179: bipush        50
+     181: if_icmpge     217
+     184: aload_3
+     185: new           #61                 // class java/lang/StringBuilder
+     188: dup
+     189: invokespecial #63                 // Method java/lang/StringBuilder."<init>":()V
+     192: ldc           #76                 // String org.alok.engine.proxy_content_provider_
+     194: invokevirtual #64                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     197: iload         5
+     199: invokevirtual #70                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+     202: invokevirtual #73                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     205: invokeinterface #45,  2           // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     210: pop
+     211: iinc          5, 1
+     214: goto          177
+     217: aload_3
+     218: ldc           #78                 // String com.google.android.gsf.gservices
+     220: invokeinterface #45,  2           // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     225: pop
+     226: aload_3
+     227: ldc           #80                 // String gservices
+     229: invokeinterface #45,  2           // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     234: pop
+     235: ldc           #2                  // class android/content/ContentProvider
+     237: ldc           #82                 // String mAuthority
+     239: invokevirtual #84                 // Method java/lang/Class.getDeclaredField:(Ljava/lang/String;)Ljava/lang/reflect/Field;
+     242: astore        5
+     244: aload         5
+     246: iconst_1
+     247: invokevirtual #90                 // Method java/lang/reflect/Field.setAccessible:(Z)V
+     250: aload         5
+     252: aload_0
+     253: aconst_null
+     254: invokevirtual #96                 // Method java/lang/reflect/Field.set:(Ljava/lang/Object;Ljava/lang/Object;)V
+     257: ldc           #2                  // class android/content/ContentProvider
+     259: ldc           #100                // String mAuthorities
+     261: invokevirtual #84                 // Method java/lang/Class.getDeclaredField:(Ljava/lang/String;)Ljava/lang/reflect/Field;
+     264: astore        6
+     266: aload         6
+     268: iconst_1
+     269: invokevirtual #90                 // Method java/lang/reflect/Field.setAccessible:(Z)V
+     272: aload         6
+     274: aload_0
+     275: aload_3
+     276: iconst_0
+     277: anewarray     #32                 // class java/lang/String
+     280: invokeinterface #102,  2          // InterfaceMethod java/util/Set.toArray:([Ljava/lang/Object;)[Ljava/lang/Object;
+     285: invokevirtual #96                 // Method java/lang/reflect/Field.set:(Ljava/lang/Object;Ljava/lang/Object;)V
+     288: goto          320
+     291: astore_3
+     292: ldc           #108                // String ProxyContentProvider
+     294: new           #61                 // class java/lang/StringBuilder
+     297: dup
+     298: invokespecial #63                 // Method java/lang/StringBuilder."<init>":()V
+     301: ldc           #110                // String fixAuthorities failed:
+     303: invokevirtual #64                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     306: aload_3
+     307: invokevirtual #112                // Method java/lang/Throwable.getMessage:()Ljava/lang/String;
+     310: invokevirtual #64                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     313: invokevirtual #73                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     316: invokestatic  #115                // Method android/util/Log.w:(Ljava/lang/String;Ljava/lang/String;)I
+     319: pop
+     320: return
+    Exception table:
+       from    to  target type
+           0   288   291   Class java/lang/Throwable
+
+  public android.os.Bundle call(java.lang.String, java.lang.String, android.os.Bundle);
+    Code:
+       0: aload_1
+       1: ldc           #121                // String _Black_|_init_process_
+       3: invokevirtual #123                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       6: ifeq          77
+       9: getstatic     #126                // Field $assertionsDisabled:Z
+      12: ifne          27
+      15: aload_3
+      16: ifnonnull     27
+      19: new           #130                // class java/lang/AssertionError
+      22: dup
+      23: invokespecial #132                // Method java/lang/AssertionError."<init>":()V
+      26: athrow
+      27: aload_3
+      28: ldc           #133                // class org/alok/engine/entity/AppConfig
+      30: invokevirtual #135                // Method java/lang/Class.getClassLoader:()Ljava/lang/ClassLoader;
+      33: invokevirtual #139                // Method android/os/Bundle.setClassLoader:(Ljava/lang/ClassLoader;)V
+      36: aload_3
+      37: ldc           #145                // String Alok_client_config
+      39: invokevirtual #147                // Method android/os/Bundle.getParcelable:(Ljava/lang/String;)Landroid/os/Parcelable;
+      42: checkcast     #133                // class org/alok/engine/entity/AppConfig
+      45: astore        4
+      47: invokestatic  #151                // Method org/alok/engine/Alok.currentActivityThread:()Lorg/alok/engine/app/BActivityThread;
+      50: aload         4
+      52: invokevirtual #155                // Method org/alok/engine/app/BActivityThread.initProcess:(Lorg/alok/engine/entity/AppConfig;)V
+      55: new           #140                // class android/os/Bundle
+      58: dup
+      59: invokespecial #161                // Method android/os/Bundle."<init>":()V
+      62: astore        5
+      64: aload         5
+      66: ldc           #162                // String _Black_|_client_
+      68: invokestatic  #151                // Method org/alok/engine/Alok.currentActivityThread:()Lorg/alok/engine/app/BActivityThread;
+      71: invokestatic  #164                // Method org/alok/engine/utils/compat/BundleCompat.putBinder:(Landroid/os/Bundle;Ljava/lang/String;Landroid/os/IBinder;)V
+      74: aload         5
+      76: areturn
+      77: ldc           #170                // String get_string
+      79: aload_1
+      80: invokevirtual #123                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+      83: ifeq          140
+      86: invokestatic  #172                // Method org/alok/engine/fake/service/context/providers/SystemProviderStub.getGServicesDefaults:()Ljava/util/Map;
+      89: astore        4
+      91: aload         4
+      93: aload_2
+      94: invokeinterface #178,  2          // InterfaceMethod java/util/Map.get:(Ljava/lang/Object;)Ljava/lang/Object;
+      99: checkcast     #32                 // class java/lang/String
+     102: astore        5
+     104: aload         5
+     106: ifnull        138
+     109: new           #140                // class android/os/Bundle
+     112: dup
+     113: invokespecial #161                // Method android/os/Bundle."<init>":()V
+     116: astore        6
+     118: aload         6
+     120: ldc           #184                // String value
+     122: aload         5
+     124: invokevirtual #186                // Method android/os/Bundle.putString:(Ljava/lang/String;Ljava/lang/String;)V
+     127: aload         6
+     129: aload_2
+     130: aload         5
+     132: invokevirtual #186                // Method android/os/Bundle.putString:(Ljava/lang/String;Ljava/lang/String;)V
+     135: aload         6
+     137: areturn
+     138: aconst_null
+     139: areturn
+     140: ldc           #190                // String get_values
+     142: aload_1
+     143: invokevirtual #123                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     146: ifeq          316
+     149: invokestatic  #172                // Method org/alok/engine/fake/service/context/providers/SystemProviderStub.getGServicesDefaults:()Ljava/util/Map;
+     152: astore        4
+     154: new           #140                // class android/os/Bundle
+     157: dup
+     158: invokespecial #161                // Method android/os/Bundle."<init>":()V
+     161: astore        5
+     163: aload_3
+     164: ifnull        249
+     167: aload_3
+     168: ldc           #192                // String keys
+     170: invokevirtual #194                // Method android/os/Bundle.getStringArray:(Ljava/lang/String;)[Ljava/lang/String;
+     173: astore        6
+     175: aload         6
+     177: ifnull        249
+     180: aload         6
+     182: arraylength
+     183: ifle          249
+     186: aload         6
+     188: astore        7
+     190: aload         7
+     192: arraylength
+     193: istore        8
+     195: iconst_0
+     196: istore        9
+     198: iload         9
+     200: iload         8
+     202: if_icmpge     246
+     205: aload         7
+     207: iload         9
+     209: aaload
+     210: astore        10
+     212: aload         4
+     214: aload         10
+     216: invokeinterface #178,  2          // InterfaceMethod java/util/Map.get:(Ljava/lang/Object;)Ljava/lang/Object;
+     221: checkcast     #32                 // class java/lang/String
+     224: astore        11
+     226: aload         11
+     228: ifnull        240
+     231: aload         5
+     233: aload         10
+     235: aload         11
+     237: invokevirtual #186                // Method android/os/Bundle.putString:(Ljava/lang/String;Ljava/lang/String;)V
+     240: iinc          9, 1
+     243: goto          198
+     246: aload         5
+     248: areturn
+     249: aload         4
+     251: invokeinterface #197,  1          // InterfaceMethod java/util/Map.entrySet:()Ljava/util/Set;
+     256: invokeinterface #201,  1          // InterfaceMethod java/util/Set.iterator:()Ljava/util/Iterator;
+     261: astore        6
+     263: aload         6
+     265: invokeinterface #205,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+     270: ifeq          313
+     273: aload         6
+     275: invokeinterface #210,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+     280: checkcast     #214                // class java/util/Map$Entry
+     283: astore        7
+     285: aload         5
+     287: aload         7
+     289: invokeinterface #216,  1          // InterfaceMethod java/util/Map$Entry.getKey:()Ljava/lang/Object;
+     294: checkcast     #32                 // class java/lang/String
+     297: aload         7
+     299: invokeinterface #219,  1          // InterfaceMethod java/util/Map$Entry.getValue:()Ljava/lang/Object;
+     304: checkcast     #32                 // class java/lang/String
+     307: invokevirtual #186                // Method android/os/Bundle.putString:(Ljava/lang/String;Ljava/lang/String;)V
+     310: goto          263
+     313: aload         5
+     315: areturn
+     316: aload_0
+     317: aload_1
+     318: aload_2
+     319: aload_3
+     320: invokespecial #222                // Method android/content/ContentProvider.call:(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
+     323: areturn
+
+  public boolean validateIncomingAuthority(java.lang.String) throws java.lang.SecurityException;
+    Code:
+       0: iconst_1
+       1: ireturn
+
+  public boolean validateIncomingUri(android.net.Uri) throws java.lang.SecurityException;
+    Code:
+       0: iconst_1
+       1: ireturn
+
+  public android.database.Cursor query(android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String);
+    Code:
+       0: aload_1
+       1: invokevirtual #226                // Method android/net/Uri.getAuthority:()Ljava/lang/String;
+       4: astore        6
+       6: ldc           #78                 // String com.google.android.gsf.gservices
+       8: aload         6
+      10: invokevirtual #123                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+      13: ifne          26
+      16: ldc           #80                 // String gservices
+      18: aload         6
+      20: invokevirtual #123                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+      23: ifeq          609
+      26: new           #231                // class java/util/HashSet
+      29: dup
+      30: invokespecial #233                // Method java/util/HashSet."<init>":()V
+      33: astore        7
+      35: iconst_0
+      36: istore        8
+      38: aload_1
+      39: invokevirtual #234                // Method android/net/Uri.getPathSegments:()Ljava/util/List;
+      42: astore        9
+      44: aload         9
+      46: ifnull        185
+      49: aload         9
+      51: invokeinterface #238,  1          // InterfaceMethod java/util/List.isEmpty:()Z
+      56: ifne          185
+      59: ldc           #241                // String prefix
+      61: aload         9
+      63: iconst_0
+      64: invokeinterface #243,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+      69: checkcast     #32                 // class java/lang/String
+      72: invokevirtual #246                // Method java/lang/String.equalsIgnoreCase:(Ljava/lang/String;)Z
+      75: ifeq          114
+      78: iconst_1
+      79: istore        8
+      81: aload         9
+      83: invokeinterface #250,  1          // InterfaceMethod java/util/List.size:()I
+      88: iconst_1
+      89: if_icmple     185
+      92: aload         7
+      94: aload         9
+      96: iconst_1
+      97: invokeinterface #243,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+     102: checkcast     #32                 // class java/lang/String
+     105: invokeinterface #45,  2           // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     110: pop
+     111: goto          185
+     114: ldc           #254                // String override
+     116: aload         9
+     118: iconst_0
+     119: invokeinterface #243,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+     124: checkcast     #32                 // class java/lang/String
+     127: invokevirtual #246                // Method java/lang/String.equalsIgnoreCase:(Ljava/lang/String;)Z
+     130: ifeq          166
+     133: aload         9
+     135: invokeinterface #250,  1          // InterfaceMethod java/util/List.size:()I
+     140: iconst_1
+     141: if_icmple     185
+     144: aload         7
+     146: aload         9
+     148: iconst_1
+     149: invokeinterface #243,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+     154: checkcast     #32                 // class java/lang/String
+     157: invokeinterface #45,  2           // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     162: pop
+     163: goto          185
+     166: aload         7
+     168: aload         9
+     170: iconst_0
+     171: invokeinterface #243,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+     176: checkcast     #32                 // class java/lang/String
+     179: invokeinterface #45,  2           // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     184: pop
+     185: aload         4
+     187: ifnull        251
+     190: aload         4
+     192: arraylength
+     193: ifle          251
+     196: aload         4
+     198: astore        10
+     200: aload         10
+     202: arraylength
+     203: istore        11
+     205: iconst_0
+     206: istore        12
+     208: iload         12
+     210: iload         11
+     212: if_icmpge     251
+     215: aload         10
+     217: iload         12
+     219: aaload
+     220: astore        13
+     222: aload         13
+     224: ifnull        245
+     227: aload         13
+     229: invokevirtual #41                 // Method java/lang/String.isEmpty:()Z
+     232: ifne          245
+     235: aload         7
+     237: aload         13
+     239: invokeinterface #45,  2           // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     244: pop
+     245: iinc          12, 1
+     248: goto          208
+     251: invokestatic  #172                // Method org/alok/engine/fake/service/context/providers/SystemProviderStub.getGServicesDefaults:()Ljava/util/Map;
+     254: astore        10
+     256: new           #256                // class android/database/MatrixCursor
+     259: dup
+     260: iconst_2
+     261: anewarray     #32                 // class java/lang/String
+     264: dup
+     265: iconst_0
+     266: ldc_w         #258                // String name
+     269: aastore
+     270: dup
+     271: iconst_1
+     272: ldc           #184                // String value
+     274: aastore
+     275: invokespecial #260                // Method android/database/MatrixCursor."<init>":([Ljava/lang/String;)V
+     278: astore        11
+     280: iload         8
+     282: ifeq          453
+     285: aload         10
+     287: invokeinterface #197,  1          // InterfaceMethod java/util/Map.entrySet:()Ljava/util/Set;
+     292: invokeinterface #201,  1          // InterfaceMethod java/util/Set.iterator:()Ljava/util/Iterator;
+     297: astore        12
+     299: aload         12
+     301: invokeinterface #205,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+     306: ifeq          450
+     309: aload         12
+     311: invokeinterface #210,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+     316: checkcast     #214                // class java/util/Map$Entry
+     319: astore        13
+     321: aload         7
+     323: invokeinterface #263,  1          // InterfaceMethod java/util/Set.isEmpty:()Z
+     328: ifeq          363
+     331: aload         11
+     333: iconst_2
+     334: anewarray     #264                // class java/lang/Object
+     337: dup
+     338: iconst_0
+     339: aload         13
+     341: invokeinterface #216,  1          // InterfaceMethod java/util/Map$Entry.getKey:()Ljava/lang/Object;
+     346: aastore
+     347: dup
+     348: iconst_1
+     349: aload         13
+     351: invokeinterface #219,  1          // InterfaceMethod java/util/Map$Entry.getValue:()Ljava/lang/Object;
+     356: aastore
+     357: invokevirtual #266                // Method android/database/MatrixCursor.addRow:([Ljava/lang/Object;)V
+     360: goto          447
+     363: aload         7
+     365: invokeinterface #201,  1          // InterfaceMethod java/util/Set.iterator:()Ljava/util/Iterator;
+     370: astore        14
+     372: aload         14
+     374: invokeinterface #205,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+     379: ifeq          447
+     382: aload         14
+     384: invokeinterface #210,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+     389: checkcast     #32                 // class java/lang/String
+     392: astore        15
+     394: aload         13
+     396: invokeinterface #216,  1          // InterfaceMethod java/util/Map$Entry.getKey:()Ljava/lang/Object;
+     401: checkcast     #32                 // class java/lang/String
+     404: aload         15
+     406: invokevirtual #270                // Method java/lang/String.startsWith:(Ljava/lang/String;)Z
+     409: ifeq          444
+     412: aload         11
+     414: iconst_2
+     415: anewarray     #264                // class java/lang/Object
+     418: dup
+     419: iconst_0
+     420: aload         13
+     422: invokeinterface #216,  1          // InterfaceMethod java/util/Map$Entry.getKey:()Ljava/lang/Object;
+     427: aastore
+     428: dup
+     429: iconst_1
+     430: aload         13
+     432: invokeinterface #219,  1          // InterfaceMethod java/util/Map$Entry.getValue:()Ljava/lang/Object;
+     437: aastore
+     438: invokevirtual #266                // Method android/database/MatrixCursor.addRow:([Ljava/lang/Object;)V
+     441: goto          447
+     444: goto          372
+     447: goto          299
+     450: goto          606
+     453: aload         7
+     455: invokeinterface #263,  1          // InterfaceMethod java/util/Set.isEmpty:()Z
+     460: ifne          538
+     463: aload         7
+     465: invokeinterface #201,  1          // InterfaceMethod java/util/Set.iterator:()Ljava/util/Iterator;
+     470: astore        12
+     472: aload         12
+     474: invokeinterface #205,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+     479: ifeq          535
+     482: aload         12
+     484: invokeinterface #210,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+     489: checkcast     #32                 // class java/lang/String
+     492: astore        13
+     494: aload         10
+     496: aload         13
+     498: invokeinterface #178,  2          // InterfaceMethod java/util/Map.get:(Ljava/lang/Object;)Ljava/lang/Object;
+     503: checkcast     #32                 // class java/lang/String
+     506: astore        14
+     508: aload         14
+     510: ifnull        532
+     513: aload         11
+     515: iconst_2
+     516: anewarray     #264                // class java/lang/Object
+     519: dup
+     520: iconst_0
+     521: aload         13
+     523: aastore
+     524: dup
+     525: iconst_1
+     526: aload         14
+     528: aastore
+     529: invokevirtual #266                // Method android/database/MatrixCursor.addRow:([Ljava/lang/Object;)V
+     532: goto          472
+     535: goto          606
+     538: aload         10
+     540: invokeinterface #197,  1          // InterfaceMethod java/util/Map.entrySet:()Ljava/util/Set;
+     545: invokeinterface #201,  1          // InterfaceMethod java/util/Set.iterator:()Ljava/util/Iterator;
+     550: astore        12
+     552: aload         12
+     554: invokeinterface #205,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+     559: ifeq          606
+     562: aload         12
+     564: invokeinterface #210,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+     569: checkcast     #214                // class java/util/Map$Entry
+     572: astore        13
+     574: aload         11
+     576: iconst_2
+     577: anewarray     #264                // class java/lang/Object
+     580: dup
+     581: iconst_0
+     582: aload         13
+     584: invokeinterface #216,  1          // InterfaceMethod java/util/Map$Entry.getKey:()Ljava/lang/Object;
+     589: aastore
+     590: dup
+     591: iconst_1
+     592: aload         13
+     594: invokeinterface #219,  1          // InterfaceMethod java/util/Map$Entry.getValue:()Ljava/lang/Object;
+     599: aastore
+     600: invokevirtual #266                // Method android/database/MatrixCursor.addRow:([Ljava/lang/Object;)V
+     603: goto          552
+     606: aload         11
+     608: areturn
+     609: aconst_null
+     610: areturn
+
+  public java.lang.String getType(android.net.Uri);
+    Code:
+       0: aconst_null
+       1: areturn
+
+  public android.net.Uri insert(android.net.Uri, android.content.ContentValues);
+    Code:
+       0: aconst_null
+       1: areturn
+
+  public int delete(android.net.Uri, java.lang.String, java.lang.String[]);
+    Code:
+       0: iconst_0
+       1: ireturn
+
+  public int update(android.net.Uri, android.content.ContentValues, java.lang.String, java.lang.String[]);
+    Code:
+       0: iconst_0
+       1: ireturn
+
+  static {};
+    Code:
+       0: ldc           #8                  // class org/alok/engine/proxy/ProxyContentProvider
+       2: invokevirtual #273                // Method java/lang/Class.desiredAssertionStatus:()Z
+       5: ifne          12
+       8: iconst_1
+       9: goto          13
+      12: iconst_0
+      13: putstatic     #126                // Field $assertionsDisabled:Z
+      16: return
+}

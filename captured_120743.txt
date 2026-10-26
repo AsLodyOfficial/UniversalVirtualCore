@@ -1,0 +1,1146 @@
+﻿09-26 12:07:42.640   413   413 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@dde6326
+09-26 12:07:42.644   413   490 I HWUI    : [destroy] CanvasContext will be destroyed.
+09-26 12:07:42.657   413   413 D TransactionThrottler: Reset transaction throttler
+09-26 12:07:42.684   413   413 V ImeFocusController: onWindowFocus: com.android.internal.policy.DecorView{bbeaeb4 V.E...... R......D 0,0-1080,2400 aid=1}[MAct] softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE
+09-26 12:07:42.687   413   413 I ImeTracker: com.zynoxadmin:fdf7a60c: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-26 12:07:42.688  7286  7286 V InputMethod: startInput(): editor=android.view.inputmethod.EditorInfo@2fe5821
+09-26 12:07:42.688  7286  7286 V InputMethodService: CALL: doFinishInput
+09-26 12:07:42.688  7286  7286 D InlineSuggestionSessionController: notifyOnFinishInput
+09-26 12:07:42.689  7286  7286 V InputMethodService: CALL: onFinishInput
+09-26 12:07:42.689  7286  7286 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2361 
+09-26 12:07:42.689  7286  7286 V InputMethodService: finishStylusHandwriting()
+09-26 12:07:42.689  7286  7286 D InlineSuggestionSessionController: notifyOnStartInput: com.zynoxadmin, 0
+09-26 12:07:42.689  7286  7286 V InputMethodService: CALL: onStartInput
+09-26 12:07:42.690  7286  7286 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1532 onStartInput(EditorInfo{EditorInfo{packageName=com.zynoxadmin, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+09-26 12:07:42.690  7286 28857 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():119 repeatCheckTimes = 0, locked = false
+09-26 12:07:42.690  7286  7286 I LatinIMEBase: LatinIMEBase.updateInputViewCoverNavigation():317 Update input view padding, isNavbarOverInputWindow=true, bottom inset=118
+09-26 12:07:42.690  7286 28863 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():119 repeatCheckTimes = 1, locked = false
+09-26 12:07:42.864 26859 12078 I .android.gms.ui: Explicit concurrent copying GC freed 807KB AllocSpace bytes, 0(0B) LOS objects, 24% free, 7252KB/9670KB, paused 159us,94us total 261.615ms
+09-26 12:07:42.926  4601  8863 D WM-WorkConstraintsTrack: NetworkRequestConstraintController onCapabilitiesChanged callback
+09-26 12:07:43.429  6532 32017 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=true, isWifiConnected=false)
+09-26 12:07:43.473   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/data/com.zynoxadmin/] -> [/data/data/com.pubg.imobile/]
+09-26 12:07:43.474   413   413 D ativeCore: set addIORule
+09-26 12:07:43.474   413   413 D ativeCore: IO::addRule /data/data/com.zynoxadmin/ -> /data/data/com.pubg.imobile/
+09-26 12:07:43.474   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user/0/com.zynoxadmin/] -> [/data/user/0/com.pubg.imobile/]
+09-26 12:07:43.474   413   413 D ativeCore: set addIORule
+09-26 12:07:43.474   413   413 D ativeCore: IO::addRule /data/user/0/com.zynoxadmin/ -> /data/user/0/com.pubg.imobile/
+09-26 12:07:43.474   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user_de/0/com.zynoxadmin/] -> [/data/user_de/0/com.pubg.imobile/]
+09-26 12:07:43.474   413   413 D ativeCore: set addIORule
+09-26 12:07:43.474   413   413 D ativeCore: IO::addRule /data/user_de/0/com.zynoxadmin/ -> /data/user_de/0/com.pubg.imobile/
+09-26 12:07:43.475   413   413 D TransactionThrottler: Reset transaction throttler
+09-26 12:07:43.475   413   413 I AlokDexInjector: Auto-installing package into virtual container before launch: com.pubg.imobile (userId=0)
+09-26 12:07:43.481   413   413 V Configuration: Updating configuration, locales updated from [] to [en_US]
+09-26 12:07:43.481   413   413 I com.zynoxadmin: AssetManager2(0x7cdc360078) locale list changing from [] to [en-US]
+09-26 12:07:43.504   507   540 V Configuration: Updating configuration, locales updated from [] to [en_US]
+09-26 12:07:43.504   507   540 I noxadmin:server: AssetManager2(0x7cdc33fcd8) locale list changing from [] to [en-US]
+09-26 12:07:43.521   507   540 W System.err: java.lang.ClassCastException: Couldn't convert result of type android.content.pm.PackageParser to a.k
+09-26 12:07:43.521   507   540 W System.err: 	at $Proxy114._new(Unknown Source)
+09-26 12:07:43.522   507   540 W System.err: 	at org.alok.engine.utils.compat.PackageParserCompat.createParser(SourceFile:1)
+09-26 12:07:43.522   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.parserApk(SourceFile:1)
+09-26 12:07:43.522   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUserLocked(SourceFile:347)
+09-26 12:07:43.522   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUser(SourceFile:25)
+09-26 12:07:43.522   507   540 W System.err: 	at org.alok.engine.core.system.pm.IBPackageManagerService$Stub.onTransact(SourceFile:149)
+09-26 12:07:43.522   507   540 W System.err: 	at android.os.Binder.execTransactInternal(Binder.java:1436)
+09-26 12:07:43.522   507   540 W System.err: 	at android.os.Binder.execTransact(Binder.java:1380)
+09-26 12:07:43.522   507   540 D InstallResult: parser apk error.
+09-26 12:07:43.522   507   540 D BPackageManagerService: install finish: 32ms
+09-26 12:07:43.524   413   413 D TransactionThrottler: Reset transaction throttler
+09-26 12:07:43.524   413   413 I AlokDexInjector: Auto-installing package into virtual container before launch: com.pubg.imobile (userId=0)
+09-26 12:07:43.529   413   413 V Configuration: Updating configuration, locales updated from [] to [en_US]
+09-26 12:07:43.529   413   413 I com.zynoxadmin: AssetManager2(0x7cdc3657f8) locale list changing from [] to [en-US]
+09-26 12:07:43.549   507   540 V Configuration: Updating configuration, locales updated from [] to [en_US]
+09-26 12:07:43.549   507   540 I noxadmin:server: AssetManager2(0x7cdc345458) locale list changing from [] to [en-US]
+09-26 12:07:43.567   507   540 W System.err: java.lang.ClassCastException: Couldn't convert result of type android.content.pm.PackageParser to a.k
+09-26 12:07:43.567   507   540 W System.err: 	at $Proxy114._new(Unknown Source)
+09-26 12:07:43.567   507   540 W System.err: 	at org.alok.engine.utils.compat.PackageParserCompat.createParser(SourceFile:1)
+09-26 12:07:43.567   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.parserApk(SourceFile:1)
+09-26 12:07:43.567   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUserLocked(SourceFile:347)
+09-26 12:07:43.567   507   540 W System.err: 	at org.alok.engine.core.system.pm.BPackageManagerService.installPackageAsUser(SourceFile:25)
+09-26 12:07:43.567   507   540 W System.err: 	at org.alok.engine.core.system.pm.IBPackageManagerService$Stub.onTransact(SourceFile:149)
+09-26 12:07:43.567   507   540 W System.err: 	at android.os.Binder.execTransactInternal(Binder.java:1436)
+09-26 12:07:43.568   507   540 W System.err: 	at android.os.Binder.execTransact(Binder.java:1380)
+09-26 12:07:43.568   507   540 D InstallResult: parser apk error.
+09-26 12:07:43.568   507   540 D BPackageManagerService: install finish: 31ms
+09-26 12:07:43.570   413   413 D TransactionThrottler: Reset transaction throttler
+09-26 12:07:43.571   413   413 D TransactionThrottler: Reset transaction throttler
+09-26 12:07:43.571   413   413 D UniversalVirtualCore-Native: TracerPid masked to 0.
+09-26 12:07:43.572   413   413 I UniversalVirtualCore-Native: Native cloaking configured for guest app.
+09-26 12:07:43.572   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/data/com.zynoxadmin/] -> [/data/data/com.pubg.imobile/]
+09-26 12:07:43.572   413   413 D ativeCore: set addIORule
+09-26 12:07:43.572   413   413 D ativeCore: IO::addRule /data/data/com.zynoxadmin/ -> /data/data/com.pubg.imobile/
+09-26 12:07:43.572   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user/0/com.zynoxadmin/] -> [/data/user/0/com.pubg.imobile/]
+09-26 12:07:43.572   413   413 D ativeCore: set addIORule
+09-26 12:07:43.572   413   413 D ativeCore: IO::addRule /data/user/0/com.zynoxadmin/ -> /data/user/0/com.pubg.imobile/
+09-26 12:07:43.572   413   413 I UniversalVirtualCore-Native: PathMapper added: [/data/user_de/0/com.zynoxadmin/] -> [/data/user_de/0/com.pubg.imobile/]
+09-26 12:07:43.572   413   413 D ativeCore: set addIORule
+09-26 12:07:43.572   413   413 D ativeCore: IO::addRule /data/user_de/0/com.zynoxadmin/ -> /data/user_de/0/com.pubg.imobile/
+09-26 12:07:43.572   413   413 I VCore-Cloaker: Applied sandbox cloaking for guest: com.pubg.imobile
+09-26 12:07:43.618  1633  1696 I AdrenoGLES-0: QUALCOMM build                   : bad34dcf83, I1064ae0a1f
+09-26 12:07:43.618  1633  1696 I AdrenoGLES-0: Build Date                       : 11/28/25
+09-26 12:07:43.618  1633  1696 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: E031.41.03.64
+09-26 12:07:43.618  1633  1696 I AdrenoGLES-0: Local Branch                     : 
+09-26 12:07:43.618  1633  1696 I AdrenoGLES-0: Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.13.2.0.11.00.00.856.062
+09-26 12:07:43.618  1633  1696 I AdrenoGLES-0: Remote Branch                    : NONE
+09-26 12:07:43.618  1633  1696 I AdrenoGLES-0: Reconstruct Branch               : NOTHING
+09-26 12:07:43.618  1633  1696 I AdrenoGLES-0: Build Config                     : S P 14.1.4 AArch64
+09-26 12:07:43.618  1633  1696 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+09-26 12:07:43.618  1633  1696 I AdrenoGLES-0: Driver Version                   : 0676.76.1
+09-26 12:07:43.626   413   413 W com.zynoxadmin: type=1400 audit(0.0:57538): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=488 scontext=u:r:untrusted_app_27:s0:c72,c258,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0 app=com.zynoxadmin
+09-26 12:07:43.632   413   413 D ViewRootImpl: AppSizeAfterRelayout, size: Point(892, 533), rotation: ROTATION_0
+09-26 12:07:43.632   413   413 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+09-26 12:07:43.633   413   413 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+09-26 12:07:43.635   413   490 W BLASTBufferQueue: Unable to open /proc/vivo_rsc/frame_set_priority: No such file or directory
+09-26 12:07:43.635   413   490 I BLASTBufferQueue: QoSAllocBuff Successful. Ret 0 
+09-26 12:07:43.639  1633  1633 D AppInstrumentation: callActivityOnCreate: com.universal.virtualcore.stub.StubActivity$P0
+09-26 12:07:43.630   413   413 W com.zynoxadmin: type=1400 audit(0.0:57539): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=488 scontext=u:r:untrusted_app_27:s0:c72,c258,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0 app=com.zynoxadmin
+09-26 12:07:43.642  1633  1633 D AppInstrumentation: Wrapped activity base context with VirtualServiceContext
+09-26 12:07:43.642  1633  1696 I AdrenoGLES-0: PFP: 0x01200182, ME: 0x00000000
+09-26 12:07:43.650  1633  1696 I libEGL  : skip_priority_level=0, isWorkaroundEnable=1
+09-26 12:07:43.672  1633  1633 D ViewRootImpl: AppSizeAfterRelayout, size: Point(1080, 2400), rotation: ROTATION_0
+09-26 12:07:43.672  1633  1633 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+09-26 12:07:43.666  1633  1633 W m.zynoxadmin:p0: type=1400 audit(0.0:57540): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=488 scontext=u:r:untrusted_app_27:s0:c72,c258,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0 app=com.zynoxadmin
+09-26 12:07:43.673  1633  1633 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+09-26 12:07:43.666  1633  1633 W m.zynoxadmin:p0: type=1400 audit(0.0:57541): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=488 scontext=u:r:untrusted_app_27:s0:c72,c258,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0 app=com.zynoxadmin
+09-26 12:07:43.675  1633  1696 W BLASTBufferQueue: Unable to open /proc/vivo_rsc/frame_set_priority: No such file or directory
+09-26 12:07:43.675  1633  1696 I BLASTBufferQueue: QoSAllocBuff Successful. Ret 0 
+09-26 12:07:43.694  2743  3039 I ActivityTaskManager: Displayed com.zynoxadmin/com.universal.virtualcore.stub.StubActivity$P0 for user 0: +104ms
+09-26 12:07:43.709  1633  1633 V ImeFocusController: onWindowFocus: com.android.internal.policy.DecorView{d59a236 V.E...... R....... 0,0-1080,2400}[StubActivity$P0] softInputMode=STATE_UNSPECIFIED|ADJUST_PAN|IS_FORWARD_NAVIGATION
+09-26 12:07:43.710  1633  1633 I ImeTracker: com.zynoxadmin:6bde701: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-26 12:07:43.710  7286  7286 V InputMethod: unbindInput(): binding=InputBinding{android.os.BinderProxy@4b43ad4 / uid 10584 / pid 413} ic=RemoteInputConnection{idHash=#7a07a7a}
+09-26 12:07:43.710  7286  7286 I SubtypeOperator: SubtypeOperator$1.onUnbindInput():43 
+09-26 12:07:43.711  7286  7286 V InputMethod: bindInput(): binding=InputBinding{android.os.BinderProxy@4fc996 / uid 10584 / pid 1633} ic=RemoteInputConnection{idHash=#6141607}
+09-26 12:07:43.711  7286  7286 I SubtypeOperator: SubtypeOperator$1.onBindInput():33 
+09-26 12:07:43.711  7286  7286 V InputMethod: startInput(): editor=android.view.inputmethod.EditorInfo@5adb334
+09-26 12:07:43.711  7286  7286 V InputMethodService: CALL: doFinishInput
+09-26 12:07:43.711  7286  7286 D InlineSuggestionSessionController: notifyOnFinishInput
+09-26 12:07:43.711  7286  7286 V InputMethodService: CALL: onFinishInput
+09-26 12:07:43.712  7286  7286 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2361 
+09-26 12:07:43.712  7286  7286 V InputMethodService: finishStylusHandwriting()
+09-26 12:07:43.712  7286  7286 D InlineSuggestionSessionController: notifyOnStartInput: com.zynoxadmin, 0
+09-26 12:07:43.712  7286 28867 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():119 repeatCheckTimes = 0, locked = false
+09-26 12:07:43.712  7286  7286 V InputMethodService: CALL: onStartInput
+09-26 12:07:43.712  7286  7286 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1532 onStartInput(EditorInfo{EditorInfo{packageName=com.zynoxadmin, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+09-26 12:07:43.713  7286  7286 I LatinIMEBase: LatinIMEBase.updateInputViewCoverNavigation():317 Update input view padding, isNavbarOverInputWindow=true, bottom inset=118
+09-26 12:07:43.714  7286 28895 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():119 repeatCheckTimes = 1, locked = false
+09-26 12:07:43.875   413   413 D VRI[MAct,type=1]: visibilityChanged oldVisibility=true newVisibility=false
+09-26 12:07:43.890   413   490 I HWUI    : [destroy] CanvasContext will be destroyed.
+09-26 12:07:43.894   413   413 D ViewRootImpl: AppSizeAfterRelayout, size: Point(1080, 2400), rotation: ROTATION_0
+09-26 12:07:43.895   413   490 I HWUI    : [setStopped] CanvasContext will be destroyed.
+09-26 12:07:43.906   413   413 D ViewRootImpl: AppSizeAfterRelayout, size: Point(1080, 2400), rotation: ROTATION_0
+09-26 12:07:45.052  6532  1501 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 26019574]
+09-26 12:07:45.088  6532   740 I AlarmManager: setExactAndAllowWhileIdle [name: FcmRetry type: 2 triggerAtMillis: 24389606]
+09-26 12:07:45.099  6532  2805 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 26019621]
+09-26 12:07:45.099  6532  6532 W GCM     : broadcast intent callback: result=CANCELLED forIntent { act=com.google.android.c2dm.intent.RECEIVE flg=0x10000000 xflg=0x4 pkg=com.whatsapp (has extras) }
+09-26 12:07:45.149  7300  9754 I exvx    : (REDACTED) HDM. appOpsListener %s %s
+09-26 12:07:45.150  7300  9754 I exvx    : (REDACTED) HDM. Ignoring irrelevant audio permission changes for package %s
+09-26 12:07:45.176  8300  9213 D WM-NetworkStateTracker: Network capabilities changed: [ Transports: CELLULAR Capabilities: SUPL&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=5193Kbps LinkDnBandwidth>=5193Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> SubscriptionIds: {1} UnderlyingNetworks: Null]
+09-26 12:07:45.176  8300  9213 D WM-NetworkStateTracker: Network capabilities changed: [ Transports: CELLULAR Capabilities: SUPL&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=7295Kbps LinkDnBandwidth>=7295Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> SubscriptionIds: {1} UnderlyingNetworks: Null]
+09-26 12:07:45.176  8300  9213 D WM-NetworkStateTracker: Network capabilities changed: [ Transports: CELLULAR Capabilities: SUPL&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=8632Kbps LinkDnBandwidth>=8632Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> SubscriptionIds: {1} UnderlyingNetworks: Null]
+09-26 12:07:45.178  8300  8869 E msys    : E[N WA]_WAJMNSStreamImplOnMNSFailure(298)=>[LogLevel:I] WAJMNSStream/impl/callback/onMNSFailure/p=0xb400007b2c534ad0 (error=MNSTCPSocketReceive(): Software caused connection abort)
+09-26 12:07:45.182  8300  8869 E msys    : E[N WA]_WAJMNSStreamImplCreateConnectionReport(202)=>[LogLevel:I] WAJMNSStream/impl/report port=443, connectedIPVersion=6, resolvedIPAddressCount=2, dnsResolutionStartTimeMS=11585364, dnsResolutionEndTimeMS=11585364, dnsCacheHit=Yes, connectStartTimeMS=11585364, connectEndTimeMS=11585399, proxyConnectStartTimeMS=0, proxyConnectEndTimeMS=0
+09-26 12:07:45.182  8300  8869 E msys    : E[N WA]_WAJMNSStreamImplUpdateStreamState(238)=>[LogLevel:I] WAJMNSStream/impl/state-changed/p=0xb400007b2c534ad0 (connected=>disconnected)
+09-26 12:07:45.195  6532   740 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+09-26 12:07:45.202  6532  6532 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+09-26 12:07:45.208  6532  6532 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.adid.service.UpdateAdIdReconciliationService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService }
+09-26 12:07:45.208  6532  6532 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.adid.service.UpdateAdIdReconciliationService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService }
+09-26 12:07:45.227  8300  8779 E msys    : E[N WA]WAJMNSStreamImplDisconnectSync(569)=>[LogLevel:W] WAJMNSStream/impl/disconnect/p=0xb400007b2c534ad0 (bytesSent=4769)(bytesRecv=4295)
+09-26 12:07:45.227  8300  8779 E msys    : E[N WA]WAJMNSStreamImplDisconnectSync(569)=>[LogLevel:W] WAJMNSStream/impl/disconnect/p=0xb400007b2c534ad0 (bytesSent=4769)(bytesRecv=4295)
+09-26 12:07:45.257  6532   740 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+09-26 12:07:45.264  8300  8779 E msys    : E[N WA]_WAJMNSStreamImplMNSTCPStreamCreate(410)=>[LogLevel:I] WAJMNSStream/impl/tcpStreamCreate/MNSStreamRaw/p=0xb400007b2c4bb120
+09-26 12:07:45.264  8300  8779 E msys    : E[N WA]WAJMNSStreamImplCreate(485)=>[LogLevel:I] WAJMNSStream/impl/create/p=0xb400007b2c4bb120 (mnsConn=0xb400007b3c3f2480)
+09-26 12:07:45.265  8300  8779 E msys    : E[N WA]_WAJMNSStreamCreateMnsIpsFromIpAddressStrings(98)=>[LogLevel:I] no ip addresses provided, using DNS resolution
+09-26 12:07:45.266  8300  8779 E msys    : E[N WA]WAJMNSStreamImplConnect(513)=>[LogLevel:I] WAJMNSStream/impl/connect/p=0xb400007b2c4bb120 (endpoint=g.whatsapp.net:5222)(ipAddressCount=0)
+09-26 12:07:45.266  8300  8779 E msys    : E[N WA]_WAJMNSStreamImplUpdateStreamState(238)=>[LogLevel:I] WAJMNSStream/impl/state-changed/p=0xb400007b2c4bb120 (initial=>connecting)
+09-26 12:07:45.276  7300  9754 I exvx    : (REDACTED) HDM. appOpsListener %s %s
+09-26 12:07:45.276  7300  9754 I exvx    : (REDACTED) HDM. Ignoring irrelevant audio permission changes for package %s
+09-26 12:07:45.279  6532  6532 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-26 12:07:45.289  6532 32017 I .gms.persistent: AssetManager2(0xb400007cdc374ed8) locale list changing from [] to [en-US]
+09-26 12:07:45.304  8300  8869 E msys    : E[N WA]_WAJMNSStreamImplOnMNSReady(269)=>[LogLevel:I] WAJMNSStream/impl/callback/onMNSReady/p=0xb400007b2c4bb120
+09-26 12:07:45.304  8300  8869 E msys    : E[N WA]_WAJMNSStreamImplCreateConnectionReport(202)=>[LogLevel:I] WAJMNSStream/impl/report port=5222, connectedIPVersion=6, resolvedIPAddressCount=2, dnsResolutionStartTimeMS=11783496, dnsResolutionEndTimeMS=11783508, dnsCacheHit=Yes, connectStartTimeMS=11783508, connectEndTimeMS=11783534, proxyConnectStartTimeMS=0, proxyConnectEndTimeMS=0
+09-26 12:07:45.304  8300  8869 E msys    : E[N WA]_WAJMNSStreamImplUpdateStreamState(238)=>[LogLevel:I] WAJMNSStream/impl/state-changed/p=0xb400007b2c4bb120 (connecting=>connected)
+09-26 12:07:45.305 28975 31860 W CryptauthV2: [ClientAppMetadataHelper] Skipping display calculation since didn't have access to a visual context
+09-26 12:07:45.313  8300  9199 D WM-SystemJobScheduler: Scheduling work ID afbf3dd2-d08c-4ea8-8d73-a4cb69e3edcdJob ID 13039
+09-26 12:07:45.315  8300  8779 I com.whatsapp: AssetManager2(0xb400007cdc460478) locale list changing from [] to [en-US]
+09-26 12:07:45.323  6532  6539 I .gms.persistent: Background young concurrent copying GC freed 17MB AllocSpace bytes, 18(832KB) LOS objects, 46% free, 21MB/38MB, paused 481us,48us total 129.697ms
+09-26 12:07:45.329  8300  8300 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=afbf3dd2-d08c-4ea8-8d73-a4cb69e3edcd, generation=0)
+09-26 12:07:45.329  8300  9199 D WM-GreedyScheduler: Starting tracking for ff7084e9-fe65-46e9-83ab-73cc0c3bdbab,afbf3dd2-d08c-4ea8-8d73-a4cb69e3edcd
+09-26 12:07:45.343  8300  9199 D WM-Processor: I0r: processing WorkGenerationalId(workSpecId=afbf3dd2-d08c-4ea8-8d73-a4cb69e3edcd, generation=0)
+09-26 12:07:45.349 28975 31860 I TetheringManager: registerTetheringEventCallback:com.google.android.gms
+09-26 12:07:45.364  6532   740 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+09-26 12:07:45.364  6532  6532 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.adid.service.UpdateAdIdReconciliationService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService }
+09-26 12:07:45.369  8300  8300 D WM-WorkerWrapper: Starting work for com.whatsapp.infra.networking.xmpp.lifecycle.XmppLifecycleWorker
+09-26 12:07:45.370 28975 28996 I gle.android.gms: AssetManager2(0xb400007cdc3444b8) locale list changing from [] to [en-US]
+09-26 12:07:45.376  8300  9198 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=afbf3dd2-d08c-4ea8-8d73-a4cb69e3edcd, generation=0)
+09-26 12:07:45.379  8300  9198 D WM-Processor: Work WorkGenerationalId(workSpecId=afbf3dd2-d08c-4ea8-8d73-a4cb69e3edcd, generation=0) is already enqueued for processing
+09-26 12:07:45.398  8300  8869 E msys    : E[N mns]_OnResolverSuccess(384)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+09-26 12:07:45.433  2831  2831 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-26 12:07:45.435  2831  2831 E id.gms.unstable: BBinder_init Processname  com.google.android.gms.unstable  
+09-26 12:07:45.435  2831  2831 E id.gms.unstable: BBinder_init hasGetProcessName  com.google.android.gms.unstable
+09-26 12:07:45.436  2830  2830 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-26 12:07:45.437  6532  6532 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.scheduler.standalone.housekeeping.HousekeepingTrainTaskService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+09-26 12:07:45.437  6532  6532 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.scheduler.standalone.housekeeping.HousekeepingTrainTaskService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+09-26 12:07:45.438  2830  2830 E .adservices.api: BBinder_init Processname  com.google.android.adservices.api  
+09-26 12:07:45.438  2830  2830 E .adservices.api: BBinder_init hasGetProcessName  com.google.android.adservices.api
+09-26 12:07:45.443  6532  2806 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+09-26 12:07:45.464  2831  2831 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+09-26 12:07:45.464  2831  2831 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/com.android.location.provider.jar
+09-26 12:07:45.464  2831  2831 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/com.android.media.remotedisplay.jar
+09-26 12:07:45.465  2831  2831 D nativeloader: Configuring clns-9 for other apk /system_ext/framework/com.android.extensions.appfunctions.jar. target_sdk_version=37, uses_libraries=ALL, library_path=/data/app/~~sxRgBcNRcWziO6Hag0iW4g==/com.google.android.gms-TxuIprGI8TUeCljVElaNfg==/lib/arm64:/data/app/~~sxRgBcNRcWziO6Hag0iW4g==/com.google.android.gms-TxuIprGI8TUeCljVElaNfg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+09-26 12:07:45.465  2831  2831 D nativeloader: Extending system_exposed_libraries: libbinauralrenderer_wrapper.qti.so:libhoaeffects.qti.so:librealm-jni.vivo.so:libupdateprof.qti.so:libthermalclient.qti.so:libdiag_system.qti.so:libqape.qti.so:liblistenjni.qti.so
+09-26 12:07:45.466  2831  2831 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+09-26 12:07:45.466  2831  2831 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+09-26 12:07:45.473  2830  2830 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+09-26 12:07:45.473  2830  2830 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+09-26 12:07:45.475   413   413 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@942c11e
+09-26 12:07:45.479   413   490 I HWUI    : [destroy] CanvasContext will be destroyed.
+09-26 12:07:45.483  2830  2830 D nativeloader: Configuring clns-shared-9 for other apk /apex/com.android.adservices/priv-app/AdServicesApkGoogle@370547060/AdServicesApkGoogle.apk. target_sdk_version=37, uses_libraries=, library_path=/apex/com.android.adservices/priv-app/AdServicesApkGoogle@370547060/lib/arm64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.adservices.api:/apex/com.android.adservices/priv-app/AdServicesApkGoogle@370547060:/system/lib64:/system_ext/lib64
+09-26 12:07:45.485  2830  2830 D nativeloader: InitApexLibraries:
+09-26 12:07:45.485  2830  2830 D nativeloader:   com_android_adservices: libhpke_jni.so:libtflite_support_classifiers_native.so
+09-26 12:07:45.485  2830  2830 D nativeloader:   com_android_appsearch: libappsearchservice.so:libicing_anywhere.so
+09-26 12:07:45.485  2830  2830 D nativeloader:   com_android_art: libartservice.so
+09-26 12:07:45.485  2830  2830 D nativeloader:   com_android_bt: libbluetooth_jni.so:liblhdcv5BT_enc.so
+09-26 12:07:45.485  2830  2830 D nativeloader:   com_android_conscrypt: libjavacrypto.so
+09-26 12:07:45.485  2830  2830 D nativeloader:   com_android_mediaprovider: libpdfclient.so
+09-26 12:07:45.485  2830  2830 D nativeloader:   com_android_ondevicepersonalization: libfcp_cpp_dep_jni.so:libfcp_hpke_jni.so
+09-26 12:07:45.485  2830  2830 D nativeloader:   com_android_os_statsd: libstats_jni.so
+09-26 12:07:45.485  2830  2830 D nativeloader:   com_android_tethering: libandroid_net_connectivity_com_android_net_module_util_jni.so:libandroid_net_connectivity_com_android_net_module_util_jni_CommonConnectivityJni.so:libcrypto_httpengine.so:libframework-connectivity-jni.so:libframework-connectivity-tiramisu-jni.so:libhttpengine.so:libservice-connectivity.so:libservice-thread-jni.so
+09-26 12:07:45.485  2830  2830 D nativeloader:   com_android_uwb: libuwb_uci_jni_rust.so
+09-26 12:07:45.485  2830  2830 D nativeloader:   com_android_virt: libvirtualizationservice_jni.so:libvirtualmachine_jni.so
+09-26 12:07:45.485  2830  2830 D nativeloader:   com_android_wifi: libservice-wifi-jni.so
+09-26 12:07:45.495  2831  2831 D nativeloader: Configuring clns-10 for other apk /data/app/~~sxRgBcNRcWziO6Hag0iW4g==/com.google.android.gms-TxuIprGI8TUeCljVElaNfg==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~sxRgBcNRcWziO6Hag0iW4g==/com.google.android.gms-TxuIprGI8TUeCljVElaNfg==/lib/arm64:/data/app/~~sxRgBcNRcWziO6Hag0iW4g==/com.google.android.gms-TxuIprGI8TUeCljVElaNfg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+09-26 12:07:45.498 28975 28975 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.findmydevice.spot.sync.DeviceSyncService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:45.498 28975 28975 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.findmydevice.spot.sync.DeviceSyncService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:45.504  2831  2831 I id.gms.unstable: AssetManager2(0xb400007cdc33f378) locale list changing from [] to [en-US]
+09-26 12:07:45.502  2831  2831 W id.gms.unstable: type=1400 audit(0.0:57542): avc:  denied  { search } for  name="fas" dev="proc" ino=4026532485 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:proc_fas:s0 tclass=dir permissive=0 app=com.google.android.gms
+09-26 12:07:45.513  2831  2831 E ShaderCache: Open /system/etc/shaders_cache/shaders_cache_size_coeffs.json failed
+09-26 12:07:45.506  2831  2831 W id.gms.unstable: type=1400 audit(0.0:57543): avc:  denied  { search } for  name="shaders_cache" dev="dm-13" ino=90565657 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:shaders_cache_file:s0 tclass=dir permissive=0 app=com.google.android.gms
+09-26 12:07:45.514  2831  2831 V GraphicsEnvironment: Currently set values for:
+09-26 12:07:45.514  2831  2831 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[com.android.angle, com.linecorp.b612.android, com.campmobile.snow, com.google.android.apps.tachyon]
+09-26 12:07:45.514  2831  2831 V GraphicsEnvironment:   angle_gl_driver_selection_values=[angle, native, native, native]
+09-26 12:07:45.514  2831  2831 V GraphicsEnvironment: com.google.android.gms is not listed in per-application setting
+09-26 12:07:45.514  2831  2831 V GraphicsEnvironment: ANGLE allowlist from config: 
+09-26 12:07:45.514  2831  2831 V GraphicsEnvironment: com.google.android.gms is not listed in ANGLE allowlist or settings, returning default
+09-26 12:07:45.515  2830  2830 I .adservices.api: AssetManager2(0xb400007cdc338c58) locale list changing from [] to [en-US]
+09-26 12:07:45.518  6532  2804 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+09-26 12:07:45.514  2830  2830 W .adservices.api: type=1400 audit(0.0:57544): avc:  denied  { search } for  name="fas" dev="proc" ino=4026532485 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:proc_fas:s0 tclass=dir permissive=0 app=com.google.android.adservices.api
+09-26 12:07:45.521 28975 29008 I DeviceSyncService: Syncing devices of user. [CONTEXT service_id=284 ]
+09-26 12:07:45.525  2830  2830 V GraphicsEnvironment: Currently set values for:
+09-26 12:07:45.525  2830  2830 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[com.android.angle, com.linecorp.b612.android, com.campmobile.snow, com.google.android.apps.tachyon]
+09-26 12:07:45.525  2830  2830 V GraphicsEnvironment:   angle_gl_driver_selection_values=[angle, native, native, native]
+09-26 12:07:45.525  2830  2830 V GraphicsEnvironment: com.google.android.adservices.api is not listed in per-application setting
+09-26 12:07:45.525  2830  2830 V GraphicsEnvironment: ANGLE allowlist from config: 
+09-26 12:07:45.525  2830  2830 V GraphicsEnvironment: com.google.android.adservices.api is not listed in ANGLE allowlist or settings, returning default
+09-26 12:07:45.547  2830  2830 I ApplicationContextProvider: onCreate(): setting application context from android.app.Application@c17583b
+09-26 12:07:45.550  2830  2830 I adservices-shared: set(): set singleton context as android.app.Application@c17583b
+09-26 12:07:45.556  2831  2831 W ProviderHelper: Unknown dynamite feature providerinstaller.dynamite
+09-26 12:07:45.557  2831  2831 I DynamiteModule: Considering local module com.google.android.gms.providerinstaller.dynamite:1 and remote module com.google.android.gms.providerinstaller.dynamite:0
+09-26 12:07:45.557  2831  2831 I DynamiteModule: Selected local version of com.google.android.gms.providerinstaller.dynamite
+09-26 12:07:45.565  2831  2831 I ProviderInstaller: Installed default security provider AndroidOpenSSL (via CompatProvider)
+09-26 12:07:45.574  2831  2831 E ANDR-VIVO-PERF: V1_0::IVPerf::tryGetService failed!
+09-26 12:07:45.574  2831  2831 E ANDR-VIVO-PERF: error no aidl or hidl 
+09-26 12:07:45.578  2831  2979 I Watchcat: Started
+09-26 12:07:45.584  2830  2830 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+09-26 12:07:45.587  2831  2979 I GMS_MM_Logger: (REDACTED) Start time: %s
+09-26 12:07:45.588  2831  2979 I GMS_MM_Logger: Started.
+09-26 12:07:45.589  2830  2830 I adservices: Setting AdServicesManager static context as android.app.Application@c17583b
+09-26 12:07:45.622  2831  2982 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+09-26 12:07:45.623  6532  2828 V AdservicesUtils: Successful to Update Adservices Ad ID.
+09-26 12:07:45.680  2831  2851 I TracingHelper: (REDACTED) Mismatched RequestContext found for module %s. Module id from RequestContext is %s
+09-26 12:07:45.685  6532   740 I NetworkScheduler.Stats: (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+09-26 12:07:45.686 28975 28975 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.findmydevice.spot.sync.DeviceSyncService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:45.737 28975 28975 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.findmydevice.spot.sync.DeviceSyncService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:45.737 28975 28975 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.findmydevice.spot.sync.DeviceSyncService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:45.742  6532   740 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+09-26 12:07:45.743 28975 29054 I DeviceSyncService: Syncing devices of user. [CONTEXT service_id=284 ]
+09-26 12:07:45.758  6532  2804 I NetworkScheduler.Stats: (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+09-26 12:07:45.760 28975 28975 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.findmydevice.spot.sync.DeviceSyncService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:45.793 28975 28975 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.findmydevice.spot.sync.DeviceSyncService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:45.793 28975 28975 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.findmydevice.spot.sync.DeviceSyncService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:45.796  2831  2851 D nativeloader: Configuring clns-11 for other apk . target_sdk_version=37, uses_libraries=ALL, library_path=, permitted_path=/data:/mnt/expand
+09-26 12:07:45.796  2831  2851 D nativeloader: Extending system_exposed_libraries: libbinauralrenderer_wrapper.qti.so:libhoaeffects.qti.so:librealm-jni.vivo.so:libupdateprof.qti.so:libthermalclient.qti.so:libdiag_system.qti.so:libqape.qti.so:liblistenjni.qti.so
+09-26 12:07:45.798  2831  2851 D nativeloader: Load /data/user/0/com.google.android.gms/app_dg_cache/D6F3613D77E3345A974691A7A7DC69F4388889A4/the.apk!/libd5AF72C7F377B.so using isolated ns clns-11 (caller=/data/user/0/com.google.android.gms/app_dg_cache/D6F3613D77E3345A974691A7A7DC69F4388889A4/the.apk): ok
+09-26 12:07:45.798  6532  2804 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+09-26 12:07:45.799 28975 28994 I DeviceSyncService: Syncing devices of user. [CONTEXT service_id=284 ]
+09-26 12:07:45.813  6532   740 I NetworkScheduler.Stats: (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+09-26 12:07:45.814 28975 28975 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.findmydevice.spot.sync.DeviceSyncService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:45.849 28975 28975 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.findmydevice.spot.sync.DeviceSyncService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:45.849 28975 28975 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.findmydevice.spot.sync.DeviceSyncService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:45.854  6532   740 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+09-26 12:07:45.855 28975 29008 I DeviceSyncService: Syncing devices of user. [CONTEXT service_id=284 ]
+09-26 12:07:45.862  2831  2831 W binder:2831_2: type=1400 audit(0.0:57545): avc:  denied  { read } for  name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=403 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+09-26 12:07:45.862  2831  2831 W binder:2831_2: type=1400 audit(0.0:57546): avc:  denied  { read } for  name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=118 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+09-26 12:07:45.866  2831  2851 W libc    : Access denied finding property "persist.adb.tls_server.enable"
+09-26 12:07:45.866  2831  2851 W libc    : Access denied finding property "service.adb.tls.port"
+09-26 12:07:45.886  6532  2804 I NetworkScheduler.Stats: (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+09-26 12:07:45.893 28975 28975 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.findmydevice.spot.sync.DeviceSyncService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:45.913  8300  8300 E WakeLockMetricsCollector: Unknown wakelock modified
+09-26 12:07:45.918  8300 21078 E WakeLockMetricsCollector: Unknown wakelock modified
+09-26 12:07:45.919 28975 28975 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.checkin.START xflg=0x4 pkg=com.google.android.gms }
+09-26 12:07:45.919 28975 28975 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.checkin.START xflg=0x4 pkg=com.google.android.gms }
+09-26 12:07:45.923 28975 29963 I Checkin : [CheckinApiChimeraService] onGetService
+09-26 12:07:45.929 28975 28975 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.findmydevice.spot.sync.SpotPublicKeysRefreshService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:45.930 28975 28975 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.findmydevice.spot.sync.SpotPublicKeysRefreshService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:45.935  6532  2804 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+09-26 12:07:45.948 28975 28994 I GmsCoreXrpcWrapper: (REDACTED) Creating a custom channel provider with trafficStatsTag=%d trafficStatsUid=%d
+09-26 12:07:45.973  6532  2804 I NetworkScheduler.Stats: (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+09-26 12:07:45.978 28975 28975 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.findmydevice.spot.sync.SpotPublicKeysRefreshService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:45.998  8300  8300 W HWUI    : Image decoding logging dropped!
+09-26 12:07:46.014  8300 23838 W HWUI    : Image decoding logging dropped!
+09-26 12:07:46.046 28975 31860 I CryptauthV2: [ReEnrollmentCryptauthFramework] Starting enrollment process.
+09-26 12:07:46.047  6532  2800 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+09-26 12:07:46.081  6532  2804 I NetworkScheduler.Stats: (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+09-26 12:07:46.138  6532  2804 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+09-26 12:07:46.146 28975 31860 W CryptauthV2: [ClientDataOperation] No keyMetadata found for keyName=fido:android_strong_auth_key
+09-26 12:07:46.152 28975 31860 W CryptauthV2: [ClientDataOperation] No keyMetadata found for keyName=PublicKey
+09-26 12:07:46.156 28975 31860 W CryptauthV2: [ClientDataOperation] No keyMetadata found for keyName=DeviceSync:BetterTogether
+09-26 12:07:46.160 28975 31860 W CryptauthV2: [ClientDataOperation] No keyMetadata found for keyName=fido:android_software_key
+09-26 12:07:46.165 28975 31860 W CryptauthV2: [ClientDataOperation] No keyMetadata found for keyName=fido:android_strong_auth_v3_key
+09-26 12:07:46.165 28975 28994 I Pay     : Registering with first available account on device [CONTEXT service_id=198 ]
+09-26 12:07:46.172 28975 31860 W CryptauthV2: [ClientDataOperation] No keyMetadata found for keyName=authzen
+09-26 12:07:46.176 28975 31860 W CryptauthV2: [ClientDataOperation] No keyMetadata found for keyName=fido:android_autofill_keystore_key
+09-26 12:07:46.177 28975 31860 I CryptauthV2: [ReEnrollmentCryptauthFramework] Performing SyncKeysRequest with 7 keys.
+09-26 12:07:46.193  6532  6532 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-26 12:07:46.194  6532  7744 E AuthPII : [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/plus.me
+09-26 12:07:46.194  6532  7744 E AuthPII : bmer: Long live credential not available.
+09-26 12:07:46.194  6532  7744 E AuthPII : 	at ajmp.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1209)
+09-26 12:07:46.194  6532  7744 E AuthPII : 	at ajmw.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):26)
+09-26 12:07:46.194  6532  7744 E AuthPII : 	at ajmu.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):626)
+09-26 12:07:46.194  6532  7744 E AuthPII : 	at aiva.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):78)
+09-26 12:07:46.194  6532  7744 E AuthPII : 	at abxi.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):318)
+09-26 12:07:46.194  6532  7744 E AuthPII : 	at abxi.dispatchTransaction(:com.google.android.gms@263234035@26.32.34 (260400-968093310):153)
+09-26 12:07:46.194  6532  7744 E AuthPII : 	at cgzj.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):64)
+09-26 12:07:46.194  6532  7744 E AuthPII : 	at aasq.onTransact(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.194  6532  7744 E AuthPII : 	at android.os.Binder.transact(Binder.java:1288)
+09-26 12:07:46.194  6532  7744 E AuthPII : 	at cwpx.onTransact(:com.google.android.gms@263234035@26.32.34 (260400-968093310):12)
+09-26 12:07:46.194  6532  7744 E AuthPII : 	at android.os.Binder.transact(Binder.java:1288)
+09-26 12:07:46.194  6532  7744 E AuthPII : 	at cgzy.onTransact(:com.google.android.gms@263234035@26.32.34 (260400-968093310):169)
+09-26 12:07:46.194  6532  7744 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1436)
+09-26 12:07:46.194  6532  7744 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1380)
+09-26 12:07:46.195  6532  7744 E AuthPII : Message is Long live credential not available.
+09-26 12:07:46.195  6532  7744 E AuthPII : bmer: Long live credential not available.
+09-26 12:07:46.195  6532  7744 E AuthPII : 	at ajmp.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1209)
+09-26 12:07:46.195  6532  7744 E AuthPII : 	at ajmw.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):26)
+09-26 12:07:46.195  6532  7744 E AuthPII : 	at ajmu.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):626)
+09-26 12:07:46.195  6532  7744 E AuthPII : 	at aiva.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):78)
+09-26 12:07:46.195  6532  7744 E AuthPII : 	at abxi.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):318)
+09-26 12:07:46.195  6532  7744 E AuthPII : 	at abxi.dispatchTransaction(:com.google.android.gms@263234035@26.32.34 (260400-968093310):153)
+09-26 12:07:46.195  6532  7744 E AuthPII : 	at cgzj.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):64)
+09-26 12:07:46.195  6532  7744 E AuthPII : 	at aasq.onTransact(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.195  6532  7744 E AuthPII : 	at android.os.Binder.transact(Binder.java:1288)
+09-26 12:07:46.195  6532  7744 E AuthPII : 	at cwpx.onTransact(:com.google.android.gms@263234035@26.32.34 (260400-968093310):12)
+09-26 12:07:46.195  6532  7744 E AuthPII : 	at android.os.Binder.transact(Binder.java:1288)
+09-26 12:07:46.195  6532  7744 E AuthPII : 	at cgzy.onTransact(:com.google.android.gms@263234035@26.32.34 (260400-968093310):169)
+09-26 12:07:46.195  6532  7744 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1436)
+09-26 12:07:46.195  6532  7744 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1380)
+09-26 12:07:46.195  6532  7744 I Auth    : (REDACTED) [AccountIdManager] Token response failed with status=%s
+09-26 12:07:46.200  6532  7744 E AuthPII : [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/account.capabilities https://www.googleapis.com/auth/account.service_flags
+09-26 12:07:46.200  6532  7744 E AuthPII : bmer: Long live credential not available.
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at ajmp.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1209)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at ajmw.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):26)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at ajmu.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):626)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at aivm.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):59)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at aivm.h(:com.google.android.gms@263234035@26.32.34 (260400-968093310):95)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at aivm.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):654)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at aivm.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):5)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at abxi.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):453)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at abxi.dispatchTransaction(:com.google.android.gms@263234035@26.32.34 (260400-968093310):153)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at cgzj.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):64)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at aasq.onTransact(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at android.os.Binder.transact(Binder.java:1288)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at cwpx.onTransact(:com.google.android.gms@263234035@26.32.34 (260400-968093310):12)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at android.os.Binder.transact(Binder.java:1288)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at cgzy.onTransact(:com.google.android.gms@263234035@26.32.34 (260400-968093310):169)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1436)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1380)
+09-26 12:07:46.200  6532  7744 E AuthPII : Message is Long live credential not available.
+09-26 12:07:46.200  6532  7744 E AuthPII : bmer: Long live credential not available.
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at ajmp.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1209)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at ajmw.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):26)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at ajmu.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):626)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at aivm.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):59)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at aivm.h(:com.google.android.gms@263234035@26.32.34 (260400-968093310):95)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at aivm.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):654)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at aivm.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):5)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at abxi.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):453)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at abxi.dispatchTransaction(:com.google.android.gms@263234035@26.32.34 (260400-968093310):153)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at cgzj.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):64)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at aasq.onTransact(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at android.os.Binder.transact(Binder.java:1288)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at cwpx.onTransact(:com.google.android.gms@263234035@26.32.34 (260400-968093310):12)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at android.os.Binder.transact(Binder.java:1288)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at cgzy.onTransact(:com.google.android.gms@263234035@26.32.34 (260400-968093310):169)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1436)
+09-26 12:07:46.200  6532  7744 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1380)
+09-26 12:07:46.201  6532  7744 W Auth    : [AccountStateDownloader] Unable to look up account state from server: couldn't fetch accessToken [CONTEXT service_id=343 ]
+09-26 12:07:46.202  6532  7744 W Auth    : [GaiaIdSync] Empty email. Not updating db. [CONTEXT service_id=153 ]
+09-26 12:07:46.214 28975 28975 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.identitycredentials.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsApiService }
+09-26 12:07:46.214 28975 28975 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.identitycredentials.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsApiService }
+09-26 12:07:46.219 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.222  6532  6787 E AuthPII : [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/cryptauth
+09-26 12:07:46.222  6532  6787 E AuthPII : bmer: Long live credential not available.
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at ajmp.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1209)
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at ajmw.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):26)
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at ajmu.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):626)
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at ajmt.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):134)
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at ajad.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):308)
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at aiuq.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):24)
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.222  6532  6787 E AuthPII : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.223  6532  6787 E AuthPII : Message is Long live credential not available.
+09-26 12:07:46.223  6532  6787 E AuthPII : bmer: Long live credential not available.
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at ajmp.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1209)
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at ajmw.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):26)
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at ajmu.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):626)
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at ajmt.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):134)
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at ajad.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):308)
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at aiuq.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):24)
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.223  6532  6787 E AuthPII : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.225 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.236 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.237 28975  3008 I Pay     : Successfully registered with credman [CONTEXT service_id=198 ]
+09-26 12:07:46.240  6532  6787 I Auth    : (REDACTED) [GetToken] GetToken failed for app=%s with userRecoverable status: %s 
+09-26 12:07:46.241  6532  6787 W Auth    : [GetTokenOperation] exception while trying to fetch auth tokens for app=com.google.android.gms [CONTEXT service_id=343 ]
+09-26 12:07:46.241  6532  6787 W Auth    : ajmo: GetToken failed with status code and recovery intent: BadAuthentication
+09-26 12:07:46.241  6532  6787 W Auth    : 	at ajmt.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):323)
+09-26 12:07:46.241  6532  6787 W Auth    : 	at ajad.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):308)
+09-26 12:07:46.241  6532  6787 W Auth    : 	at aiuq.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):24)
+09-26 12:07:46.241  6532  6787 W Auth    : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.241  6532  6787 W Auth    : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.241  6532  6787 W Auth    : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.241  6532  6787 W Auth    : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.241  6532  6787 W Auth    : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.241  6532  6787 W Auth    : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.241  6532  6787 W Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.241  6532  6787 W Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.241  6532  6787 W Auth    : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.241  6532  6787 W Auth    : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.243 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.247 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.247 28975 28994 I Pay     : (REDACTED) Refreshing content for account: %s
+09-26 12:07:46.254 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.264  6532  2800 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+09-26 12:07:46.279 28975 28994 I Pay     : (REDACTED) IdCardRefreshManager tryRefreshIdCards %s
+09-26 12:07:46.279 28975 29054 I Pay     : Starting Credman Registration with Injected Matchers [CONTEXT service_id=198 ]
+09-26 12:07:46.283 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.290 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.302 28975 28996 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.306  6532   740 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+09-26 12:07:46.306 28975 29054 W Pay     : Failed to get mdoc info list because mdocstore is missing. Treating as if the user has no credentials. [CONTEXT service_id=198 ]
+09-26 12:07:46.306 28975 29054 W Pay     : java.util.concurrent.ExecutionException: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.306 28975 29054 W Pay     : 	at gbex.q(:com.google.android.gms@263234035@26.32.34 (260400-968093310):32)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at gbex.o(:com.google.android.gms@263234035@26.32.34 (260400-968093310):43)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at etrc.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):7)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at etqw.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):43)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.306 28975 29054 W Pay     : Caused by: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.306 28975 29054 W Pay     : 	at bmoo.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):15)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at blsk.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at blsh.e(:com.google.android.gms@263234035@26.32.34 (260400-968093310):5)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at blux.r(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at blux.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):10)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at blux.g(:com.google.android.gms@263234035@26.32.34 (260400-968093310):191)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at bluz.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):84)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at android.os.Handler.handleCallback(Handler.java:1051)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at dhsb.lJ(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at dhsb.dispatchMessage(:com.google.android.gms@263234035@26.32.34 (260400-968093310):148)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at android.os.Looper.loopOnce(Looper.java:266)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at android.os.Looper.loop(Looper.java:361)
+09-26 12:07:46.306 28975 29054 W Pay     : 	at android.os.HandlerThread.run(HandlerThread.java:103)
+09-26 12:07:46.316 28975  3008 I Pay     : Active account was null, notification task will be cancelled. [CONTEXT service_id=198 ]
+09-26 12:07:46.317 28975  3008 W Pay     : PerformIdCard operation failed [CONTEXT service_id=198 ]
+09-26 12:07:46.317 28975  3008 W Pay     : OperationException[Status{statusCode=Active account is required, resolution=null}]
+09-26 12:07:46.317 28975  3008 W Pay     : 	at fdbg.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):84)
+09-26 12:07:46.317 28975  3008 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):54)
+09-26 12:07:46.317 28975  3008 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.317 28975  3008 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.317 28975  3008 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.317 28975  3008 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.317 28975  3008 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.317 28975  3008 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.317 28975  3008 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.317 28975  3008 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.317 28975  3008 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.317 28975  3008 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.317 28975  3008 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.319 28975 28994 W Pay     : IdCardRefreshManager: mdocstore module check install failed [CONTEXT service_id=198 ]
+09-26 12:07:46.319 28975 28994 W Pay     : java.util.concurrent.ExecutionException: blqm: 5: Active account is required
+09-26 12:07:46.319 28975 28994 W Pay     : 	at gbex.q(:com.google.android.gms@263234035@26.32.34 (260400-968093310):32)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at gbex.p(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at etzb.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):44)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at etzb.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):47)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at euau.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):564)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at com.google.android.gms.pay.gcmtask.PayGcmTaskChimeraService.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):18)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at dhub.call(:com.google.android.gms@263234035@26.32.34 (260400-968093310):36)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.319 28975 28994 W Pay     : Caused by: blqm: 5: Active account is required
+09-26 12:07:46.319 28975 28994 W Pay     : 	at bmoo.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):15)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at blwv.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):12)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at entx.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):3)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):198)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.319 28975 28994 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.319 28975 28994 W Pay     : 	... 7 more
+09-26 12:07:46.319 28975 29054 V NFC     : this device does not have NFC support
+09-26 12:07:46.320 28975 29054 I Pay     : NFC is not supported, hiding ID pass [CONTEXT service_id=198 ]
+09-26 12:07:46.324 28975 31860 I Pay     : (REDACTED) IdCardOperation: %s, %s
+09-26 12:07:46.324 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.324 28975 28994 I Pay     : (REDACTED) IdCardContentRefreshTaskOperation: syncing rp config for account %s
+09-26 12:07:46.325 28975 29054 I Pay     : No Sulu credential found, adding inline provisioning entry. [CONTEXT service_id=198 ]
+09-26 12:07:46.326 28975 29054 I Pay     : Sulu placeholder created to be registered with CredMan [CONTEXT service_id=198 ]
+09-26 12:07:46.328 28975 29054 I Pay     : (REDACTED) Processing %s mdocs %s%s, %s
+09-26 12:07:46.331 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.332 28975 28996 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.334 28975 29008 W Pay     : Failed to fetch mdocs info list. [CONTEXT service_id=198 ]
+09-26 12:07:46.334 28975 31860 W Pay     : PerformIdCard operation failed [CONTEXT service_id=198 ]
+09-26 12:07:46.334 28975 31860 W Pay     : OperationException[Status{statusCode=Unknown error, resolution=null}]
+09-26 12:07:46.334 28975 31860 W Pay     : 	at fddi.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):838)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):112)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.334 28975 31860 W Pay     : Caused by: java.util.concurrent.ExecutionException: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.334 28975 31860 W Pay     : 	at gbex.q(:com.google.android.gms@263234035@26.32.34 (260400-968093310):32)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at gbex.p(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at fddi.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):162)
+09-26 12:07:46.334 28975 31860 W Pay     : 	... 12 more
+09-26 12:07:46.334 28975 31860 W Pay     : Caused by: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.334 28975 31860 W Pay     : 	at bmoo.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):15)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at blsk.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at blsh.e(:com.google.android.gms@263234035@26.32.34 (260400-968093310):5)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at blux.r(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at blux.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):10)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at blux.g(:com.google.android.gms@263234035@26.32.34 (260400-968093310):191)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at bluz.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):84)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at android.os.Handler.handleCallback(Handler.java:1051)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at dhsb.lJ(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at dhsb.dispatchMessage(:com.google.android.gms@263234035@26.32.34 (260400-968093310):148)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at android.os.Looper.loopOnce(Looper.java:266)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at android.os.Looper.loop(Looper.java:361)
+09-26 12:07:46.334 28975 31860 W Pay     : 	at android.os.HandlerThread.run(HandlerThread.java:103)
+09-26 12:07:46.339 28975 29054 I Pay     : (REDACTED) Registering %s with IdentityCredential API
+09-26 12:07:46.344 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.345 28975  3008 I Pay     : (REDACTED) IdCardOperation: %s, %s
+09-26 12:07:46.346 28975  3008 I Pay     : NFC is not supported, hiding ID pass [CONTEXT service_id=198 ]
+09-26 12:07:46.348 28975 28994 I Pay     : (REDACTED) Refreshing content for account: %s
+09-26 12:07:46.351 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.351 28975 28994 I Pay     : (REDACTED) IdCardRefreshManager tryRefreshIdCards %s
+09-26 12:07:46.360 28975 31860 I Pay     : (REDACTED) IdCardOperation: %s, %s
+09-26 12:07:46.361 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.369 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.371 28975 28996 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.373 28975 29008 I Pay     : Active account was null, notification task will be cancelled. [CONTEXT service_id=198 ]
+09-26 12:07:46.374 28975 29008 W Pay     : PerformIdCard operation failed [CONTEXT service_id=198 ]
+09-26 12:07:46.374 28975 29008 W Pay     : OperationException[Status{statusCode=Active account is required, resolution=null}]
+09-26 12:07:46.374 28975 29008 W Pay     : 	at fdbg.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):84)
+09-26 12:07:46.374 28975 29008 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):54)
+09-26 12:07:46.374 28975 29008 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.374 28975 29008 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.374 28975 29008 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.374 28975 29008 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.374 28975 29008 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.374 28975 29008 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.374 28975 29008 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.374 28975 29008 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.374 28975 29008 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.374 28975 29008 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.374 28975 29008 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.376 28975 31860 W Pay     : PerformIdCard operation failed [CONTEXT service_id=198 ]
+09-26 12:07:46.376 28975 31860 W Pay     : OperationException[Status{statusCode=Unknown error, resolution=null}]
+09-26 12:07:46.376 28975 31860 W Pay     : 	at fddi.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):838)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):112)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.376 28975 31860 W Pay     : Caused by: java.util.concurrent.ExecutionException: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.376 28975 31860 W Pay     : 	at gbex.q(:com.google.android.gms@263234035@26.32.34 (260400-968093310):32)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at gbex.p(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at fddi.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):162)
+09-26 12:07:46.376 28975 31860 W Pay     : 	... 12 more
+09-26 12:07:46.376 28975 31860 W Pay     : Caused by: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.376 28975 31860 W Pay     : 	at bmoo.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):15)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at blsk.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at blsh.e(:com.google.android.gms@263234035@26.32.34 (260400-968093310):5)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at blux.r(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at blux.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):10)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at blux.g(:com.google.android.gms@263234035@26.32.34 (260400-968093310):191)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at bluz.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):84)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at android.os.Handler.handleCallback(Handler.java:1051)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at dhsb.lJ(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at dhsb.dispatchMessage(:com.google.android.gms@263234035@26.32.34 (260400-968093310):148)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at android.os.Looper.loopOnce(Looper.java:266)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at android.os.Looper.loop(Looper.java:361)
+09-26 12:07:46.376 28975 31860 W Pay     : 	at android.os.HandlerThread.run(HandlerThread.java:103)
+09-26 12:07:46.376 28975 28994 W Pay     : IdCardRefreshManager: mdocstore module check install failed [CONTEXT service_id=198 ]
+09-26 12:07:46.376 28975 28994 W Pay     : java.util.concurrent.ExecutionException: blqm: 5: Active account is required
+09-26 12:07:46.376 28975 28994 W Pay     : 	at gbex.q(:com.google.android.gms@263234035@26.32.34 (260400-968093310):32)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at gbex.p(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at etzb.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):44)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at etzb.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):47)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at euau.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):564)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at com.google.android.gms.pay.gcmtask.PayGcmTaskChimeraService.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):18)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at dhub.call(:com.google.android.gms@263234035@26.32.34 (260400-968093310):36)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.376 28975 28994 W Pay     : Caused by: blqm: 5: Active account is required
+09-26 12:07:46.376 28975 28994 W Pay     : 	at bmoo.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):15)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at blwv.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):12)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at entx.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):3)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):198)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.376 28975 28994 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.376 28975 28994 W Pay     : 	... 7 more
+09-26 12:07:46.376 28975 28994 I Pay     : (REDACTED) IdCardContentRefreshTaskOperation: syncing rp config for account %s
+09-26 12:07:46.378 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.385  6532  2802 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+09-26 12:07:46.389 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.395 28975 28996 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.396 28975  3012 W Pay     : Failed to fetch mdocs info list. [CONTEXT service_id=198 ]
+09-26 12:07:46.398 28975 29008 I WalletGcmTaskService: Running GcmTask w/ tag INSTANTBUY_SYNC_GCM_TASK_STEP_1
+09-26 12:07:46.404 28975 31860 I Pay     : (REDACTED) IdCardOperation: %s, %s
+09-26 12:07:46.407 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.407 28975 31860 I Pay     : NFC is not supported, hiding ID pass [CONTEXT service_id=198 ]
+09-26 12:07:46.414 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.420 28975 28994 I Pay     : (REDACTED) Refreshing content for account: %s
+09-26 12:07:46.424 28975 28994 I Pay     : (REDACTED) IdCardRefreshManager tryRefreshIdCards %s
+09-26 12:07:46.431 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.460  6532  2800 I NetworkScheduler.Stats: (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+09-26 12:07:46.468 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.485 28975  3011 I Pay     : (REDACTED) IdCardOperation: %s, %s
+09-26 12:07:46.488 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.496 28975  3012 I Pay     : Active account was null, notification task will be cancelled. [CONTEXT service_id=198 ]
+09-26 12:07:46.497 28975  3012 W Pay     : PerformIdCard operation failed [CONTEXT service_id=198 ]
+09-26 12:07:46.497 28975  3012 W Pay     : OperationException[Status{statusCode=Active account is required, resolution=null}]
+09-26 12:07:46.497 28975  3012 W Pay     : 	at fdbg.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):84)
+09-26 12:07:46.497 28975  3012 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):54)
+09-26 12:07:46.497 28975  3012 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.497 28975  3012 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.497 28975  3012 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.497 28975  3012 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.497 28975  3012 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.497 28975  3012 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.497 28975  3012 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.497 28975  3012 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.497 28975  3012 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.497 28975  3012 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.497 28975  3012 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.499 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.500 28975 28994 W Pay     : IdCardRefreshManager: mdocstore module check install failed [CONTEXT service_id=198 ]
+09-26 12:07:46.500 28975 28994 W Pay     : java.util.concurrent.ExecutionException: blqm: 5: Active account is required
+09-26 12:07:46.500 28975 28994 W Pay     : 	at gbex.q(:com.google.android.gms@263234035@26.32.34 (260400-968093310):32)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at gbex.p(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at etzb.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):44)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at etzb.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):47)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at euau.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):564)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at com.google.android.gms.pay.gcmtask.PayGcmTaskChimeraService.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):18)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at dhub.call(:com.google.android.gms@263234035@26.32.34 (260400-968093310):36)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.500 28975 28994 W Pay     : Caused by: blqm: 5: Active account is required
+09-26 12:07:46.500 28975 28994 W Pay     : 	at bmoo.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):15)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at blwv.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):12)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at entx.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):3)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):198)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.500 28975 28994 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.500 28975 28994 W Pay     : 	... 7 more
+09-26 12:07:46.502 28975 28994 I Pay     : (REDACTED) IdCardContentRefreshTaskOperation: syncing rp config for account %s
+09-26 12:07:46.504 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.526 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.527 28975 28975 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.backup.transport.snapshot.DeviceStateSnapshotLoggingTask.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:46.527 28975 28975 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.backup.transport.snapshot.DeviceStateSnapshotLoggingTask.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+09-26 12:07:46.532 28975 28996 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.535 28975 28979 I gle.android.gms: Background young concurrent copying GC freed 4268KB AllocSpace bytes, 27(792KB) LOS objects, 11% free, 10233KB/11MB, paused 375us,165us total 153.228ms
+09-26 12:07:46.536 28975  3012 W Pay     : Failed to fetch mdocs info list. [CONTEXT service_id=198 ]
+09-26 12:07:46.544  6532  2802 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+09-26 12:07:46.576 28975  3011 W Pay     : PerformIdCard operation failed [CONTEXT service_id=198 ]
+09-26 12:07:46.576 28975  3011 W Pay     : OperationException[Status{statusCode=Unknown error, resolution=null}]
+09-26 12:07:46.576 28975  3011 W Pay     : 	at fddi.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):838)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):112)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.576 28975  3011 W Pay     : Caused by: java.util.concurrent.ExecutionException: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.576 28975  3011 W Pay     : 	at gbex.q(:com.google.android.gms@263234035@26.32.34 (260400-968093310):32)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at gbex.p(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at fddi.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):162)
+09-26 12:07:46.576 28975  3011 W Pay     : 	... 12 more
+09-26 12:07:46.576 28975  3011 W Pay     : Caused by: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.576 28975  3011 W Pay     : 	at bmoo.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):15)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at blsk.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at blsh.e(:com.google.android.gms@263234035@26.32.34 (260400-968093310):5)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at blux.r(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at blux.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):10)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at blux.g(:com.google.android.gms@263234035@26.32.34 (260400-968093310):191)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at bluz.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):84)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at android.os.Handler.handleCallback(Handler.java:1051)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at dhsb.lJ(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at dhsb.dispatchMessage(:com.google.android.gms@263234035@26.32.34 (260400-968093310):148)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at android.os.Looper.loopOnce(Looper.java:266)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at android.os.Looper.loop(Looper.java:361)
+09-26 12:07:46.576 28975  3011 W Pay     : 	at android.os.HandlerThread.run(HandlerThread.java:103)
+09-26 12:07:46.596  8300  8844 E msys    : E[N WCIHTTPImplNetworkSession]WCIHTTPTaskImplCreateRegular(556)=>[I] http/task/regular/create/start
+09-26 12:07:46.597  8300  8844 E msys    : E[N WCIHTTPImplNetworkSession]WCIHTTPTaskImplCreateRegular(591)=>[I] http/task/regular/create/execute
+09-26 12:07:46.597  8300  8844 E msys    : E[N WCIHTTPImplNetworkSession]WCIHTTPTaskImplCreateRegular(614)=>[I] http/task/regular/create/success
+09-26 12:07:46.601 28975  3012 I Pay     : (REDACTED) IdCardOperation: %s, %s
+09-26 12:07:46.603 28975  3012 I Pay     : NFC is not supported, hiding ID pass [CONTEXT service_id=198 ]
+09-26 12:07:46.604 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.612 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.619 28975 28975 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.audit.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+09-26 12:07:46.622 28975 28975 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.audit.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+09-26 12:07:46.636 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.643 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.661 28975 28994 I Pay     : (REDACTED) Refreshing content for account: %s
+09-26 12:07:46.663 28975 28994 I Pay     : (REDACTED) IdCardRefreshManager tryRefreshIdCards %s
+09-26 12:07:46.680 28975 29008 I Pay     : (REDACTED) IdCardOperation: %s, %s
+09-26 12:07:46.683 28975 29054 I Pay     : (REDACTED) Registering %s with IdentityCredential API
+09-26 12:07:46.695 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.700 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.706 28975 28996 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.707 28975  3020 I Pay     : Active account was null, notification task will be cancelled. [CONTEXT service_id=198 ]
+09-26 12:07:46.713 28975 29008 W Pay     : PerformIdCard operation failed [CONTEXT service_id=198 ]
+09-26 12:07:46.713 28975 29008 W Pay     : OperationException[Status{statusCode=Unknown error, resolution=null}]
+09-26 12:07:46.713 28975 29008 W Pay     : 	at fddi.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):838)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):112)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.713 28975 29008 W Pay     : Caused by: java.util.concurrent.ExecutionException: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.713 28975 29008 W Pay     : 	at gbex.q(:com.google.android.gms@263234035@26.32.34 (260400-968093310):32)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at gbex.p(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at fddi.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):162)
+09-26 12:07:46.713 28975 29008 W Pay     : 	... 12 more
+09-26 12:07:46.713 28975 29008 W Pay     : Caused by: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.713 28975 29008 W Pay     : 	at bmoo.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):15)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at blsk.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at blsh.e(:com.google.android.gms@263234035@26.32.34 (260400-968093310):5)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at blux.r(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at blux.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):10)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at blux.g(:com.google.android.gms@263234035@26.32.34 (260400-968093310):191)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at bluz.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):84)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at android.os.Handler.handleCallback(Handler.java:1051)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at dhsb.lJ(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at dhsb.dispatchMessage(:com.google.android.gms@263234035@26.32.34 (260400-968093310):148)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at android.os.Looper.loopOnce(Looper.java:266)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at android.os.Looper.loop(Looper.java:361)
+09-26 12:07:46.713 28975 29008 W Pay     : 	at android.os.HandlerThread.run(HandlerThread.java:103)
+09-26 12:07:46.714 28975  3020 W Pay     : PerformIdCard operation failed [CONTEXT service_id=198 ]
+09-26 12:07:46.714 28975  3020 W Pay     : OperationException[Status{statusCode=Active account is required, resolution=null}]
+09-26 12:07:46.714 28975  3020 W Pay     : 	at fdbg.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):84)
+09-26 12:07:46.714 28975  3020 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):54)
+09-26 12:07:46.714 28975  3020 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.714 28975  3020 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.714 28975  3020 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.714 28975  3020 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.714 28975  3020 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.714 28975  3020 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.714 28975  3020 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.714 28975  3020 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.714 28975  3020 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.714 28975  3020 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.714 28975  3020 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.734 28975 28994 W Pay     : IdCardRefreshManager: mdocstore module check install failed [CONTEXT service_id=198 ]
+09-26 12:07:46.734 28975 28994 W Pay     : java.util.concurrent.ExecutionException: blqm: 5: Active account is required
+09-26 12:07:46.734 28975 28994 W Pay     : 	at gbex.q(:com.google.android.gms@263234035@26.32.34 (260400-968093310):32)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at gbex.p(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at etzb.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):44)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at etzb.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):47)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at euau.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):564)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at com.google.android.gms.pay.gcmtask.PayGcmTaskChimeraService.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):18)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at dhub.call(:com.google.android.gms@263234035@26.32.34 (260400-968093310):36)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.734 28975 28994 W Pay     : Caused by: blqm: 5: Active account is required
+09-26 12:07:46.734 28975 28994 W Pay     : 	at bmoo.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):15)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at blwv.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):12)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at entx.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):3)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):198)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.734 28975 28994 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.734 28975 28994 W Pay     : 	... 7 more
+09-26 12:07:46.748 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.748 28975 28994 I Pay     : (REDACTED) IdCardContentRefreshTaskOperation: syncing rp config for account %s
+09-26 12:07:46.762 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.766 28975 28996 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.772 28975  3020 W Pay     : Failed to fetch mdocs info list. [CONTEXT service_id=198 ]
+09-26 12:07:46.780 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.784 28975 28994 I Pay     : (REDACTED) Refreshing content for account: %s
+09-26 12:07:46.786 28975 28994 I Pay     : (REDACTED) IdCardRefreshManager tryRefreshIdCards %s
+09-26 12:07:46.787 28975 28979 I gle.android.gms: Background young concurrent copying GC freed 3164KB AllocSpace bytes, 2(40KB) LOS objects, 0% free, 11MB/11MB, paused 1.899ms,277us total 247.737ms
+09-26 12:07:46.790 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.792 28975  3028 I Pay     : (REDACTED) IdCardOperation: %s, %s
+09-26 12:07:46.792 28975  3028 I Pay     : NFC is not supported, hiding ID pass [CONTEXT service_id=198 ]
+09-26 12:07:46.799 28975  3020 I Pay     : (REDACTED) IdCardOperation: %s, %s
+09-26 12:07:46.801 28975  3029 I Pay     : Active account was null, notification task will be cancelled. [CONTEXT service_id=198 ]
+09-26 12:07:46.802 28975  3029 W Pay     : PerformIdCard operation failed [CONTEXT service_id=198 ]
+09-26 12:07:46.802 28975  3029 W Pay     : OperationException[Status{statusCode=Active account is required, resolution=null}]
+09-26 12:07:46.802 28975  3029 W Pay     : 	at fdbg.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):84)
+09-26 12:07:46.802 28975  3029 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):54)
+09-26 12:07:46.802 28975  3029 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.802 28975  3029 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.802 28975  3029 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.802 28975  3029 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.802 28975  3029 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.802 28975  3029 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.802 28975  3029 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.802 28975  3029 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.802 28975  3029 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.802 28975  3029 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.802 28975  3029 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.802 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.804 28975 28994 W Pay     : IdCardRefreshManager: mdocstore module check install failed [CONTEXT service_id=198 ]
+09-26 12:07:46.804 28975 28994 W Pay     : java.util.concurrent.ExecutionException: blqm: 5: Active account is required
+09-26 12:07:46.804 28975 28994 W Pay     : 	at gbex.q(:com.google.android.gms@263234035@26.32.34 (260400-968093310):32)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at gbex.p(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at etzb.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):44)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at etzb.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):47)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at euau.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):564)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at com.google.android.gms.pay.gcmtask.PayGcmTaskChimeraService.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):18)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at dhub.call(:com.google.android.gms@263234035@26.32.34 (260400-968093310):36)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.804 28975 28994 W Pay     : Caused by: blqm: 5: Active account is required
+09-26 12:07:46.804 28975 28994 W Pay     : 	at bmoo.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):15)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at blwv.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):12)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at entx.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):3)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):198)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.804 28975 28994 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.804 28975 28994 W Pay     : 	... 7 more
+09-26 12:07:46.806 28975 28994 I Pay     : (REDACTED) IdCardContentRefreshTaskOperation: syncing rp config for account %s
+09-26 12:07:46.807 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.808 28975 28996 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.812 28975  3020 W Pay     : PerformIdCard operation failed [CONTEXT service_id=198 ]
+09-26 12:07:46.812 28975  3020 W Pay     : OperationException[Status{statusCode=Unknown error, resolution=null}]
+09-26 12:07:46.812 28975  3020 W Pay     : 	at fddi.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):838)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):112)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.812 28975  3020 W Pay     : Caused by: java.util.concurrent.ExecutionException: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.812 28975  3020 W Pay     : 	at gbex.q(:com.google.android.gms@263234035@26.32.34 (260400-968093310):32)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at gbex.p(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at fddi.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):162)
+09-26 12:07:46.812 28975  3020 W Pay     : 	... 12 more
+09-26 12:07:46.812 28975  3020 W Pay     : Caused by: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.812 28975  3020 W Pay     : 	at bmoo.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):15)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at blsk.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at blsh.e(:com.google.android.gms@263234035@26.32.34 (260400-968093310):5)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at blux.r(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at blux.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):10)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at blux.g(:com.google.android.gms@263234035@26.32.34 (260400-968093310):191)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at bluz.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):84)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at android.os.Handler.handleCallback(Handler.java:1051)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at dhsb.lJ(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at dhsb.dispatchMessage(:com.google.android.gms@263234035@26.32.34 (260400-968093310):148)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at android.os.Looper.loopOnce(Looper.java:266)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at android.os.Looper.loop(Looper.java:361)
+09-26 12:07:46.812 28975  3020 W Pay     : 	at android.os.HandlerThread.run(HandlerThread.java:103)
+09-26 12:07:46.814 28975 29008 W Pay     : Failed to fetch mdocs info list. [CONTEXT service_id=198 ]
+09-26 12:07:46.820 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.824 28975 28994 I Pay     : (REDACTED) Refreshing content for account: %s
+09-26 12:07:46.826 28975 28994 I Pay     : (REDACTED) IdCardRefreshManager tryRefreshIdCards %s
+09-26 12:07:46.828 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.829 28975  3029 I Pay     : (REDACTED) IdCardOperation: %s, %s
+09-26 12:07:46.831 28975  3029 I Pay     : NFC is not supported, hiding ID pass [CONTEXT service_id=198 ]
+09-26 12:07:46.832 28975  3013 D SQLiteQueryBuilder: SELECT value FROM partner WHERE ((name=?))
+09-26 12:07:46.839 28975  3020 I Pay     : (REDACTED) IdCardOperation: %s, %s
+09-26 12:07:46.841 28975 29008 I Pay     : Active account was null, notification task will be cancelled. [CONTEXT service_id=198 ]
+09-26 12:07:46.842 28975 29008 W Pay     : PerformIdCard operation failed [CONTEXT service_id=198 ]
+09-26 12:07:46.842 28975 29008 W Pay     : OperationException[Status{statusCode=Active account is required, resolution=null}]
+09-26 12:07:46.842 28975 29008 W Pay     : 	at fdbg.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):84)
+09-26 12:07:46.842 28975 29008 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):54)
+09-26 12:07:46.842 28975 29008 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.842 28975 29008 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.842 28975 29008 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.842 28975 29008 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.842 28975 29008 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.842 28975 29008 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.842 28975 29008 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.842 28975 29008 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.842 28975 29008 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.842 28975 29008 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.842 28975 29008 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.844 28975  3013 D SQLiteQueryBuilder: SELECT value FROM partner WHERE ((name=?))
+09-26 12:07:46.847 28975 28994 W Pay     : IdCardRefreshManager: mdocstore module check install failed [CONTEXT service_id=198 ]
+09-26 12:07:46.847 28975 28994 W Pay     : java.util.concurrent.ExecutionException: blqm: 5: Active account is required
+09-26 12:07:46.847 28975 28994 W Pay     : 	at gbex.q(:com.google.android.gms@263234035@26.32.34 (260400-968093310):32)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at gbex.p(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at etzb.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):44)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at etzb.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):47)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at euau.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):564)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at com.google.android.gms.pay.gcmtask.PayGcmTaskChimeraService.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):18)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at dhub.call(:com.google.android.gms@263234035@26.32.34 (260400-968093310):36)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.847 28975 28994 W Pay     : Caused by: blqm: 5: Active account is required
+09-26 12:07:46.847 28975 28994 W Pay     : 	at bmoo.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):15)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at blwv.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):12)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at entx.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):3)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):198)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.847 28975 28994 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.847 28975 28994 W Pay     : 	... 7 more
+09-26 12:07:46.847 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.848 28975 28994 I Pay     : (REDACTED) IdCardContentRefreshTaskOperation: syncing rp config for account %s
+09-26 12:07:46.851 28975  3013 D SQLiteQueryBuilder: SELECT value FROM partner WHERE ((name=?))
+09-26 12:07:46.858 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.864 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.869 28975 28975 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS xflg=0x4 pkg=com.google.android.gms }
+09-26 12:07:46.869 28975 28975 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS xflg=0x4 pkg=com.google.android.gms }
+09-26 12:07:46.874 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.876 28975 28996 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.878 28975  3020 W Pay     : PerformIdCard operation failed [CONTEXT service_id=198 ]
+09-26 12:07:46.878 28975  3020 W Pay     : OperationException[Status{statusCode=Unknown error, resolution=null}]
+09-26 12:07:46.878 28975  3020 W Pay     : 	at fddi.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):838)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):112)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.878 28975  3020 W Pay     : Caused by: java.util.concurrent.ExecutionException: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.878 28975  3020 W Pay     : 	at gbex.q(:com.google.android.gms@263234035@26.32.34 (260400-968093310):32)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at gbex.p(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at fddi.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):162)
+09-26 12:07:46.878 28975  3020 W Pay     : 	... 12 more
+09-26 12:07:46.878 28975  3020 W Pay     : Caused by: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.878 28975  3020 W Pay     : 	at bmoo.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):15)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at blsk.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at blsh.e(:com.google.android.gms@263234035@26.32.34 (260400-968093310):5)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at blux.r(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at blux.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):10)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at blux.g(:com.google.android.gms@263234035@26.32.34 (260400-968093310):191)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at bluz.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):84)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at android.os.Handler.handleCallback(Handler.java:1051)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at dhsb.lJ(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at dhsb.dispatchMessage(:com.google.android.gms@263234035@26.32.34 (260400-968093310):148)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at android.os.Looper.loopOnce(Looper.java:266)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at android.os.Looper.loop(Looper.java:361)
+09-26 12:07:46.878 28975  3020 W Pay     : 	at android.os.HandlerThread.run(HandlerThread.java:103)
+09-26 12:07:46.879 28975  3036 W Pay     : Failed to fetch mdocs info list. [CONTEXT service_id=198 ]
+09-26 12:07:46.884 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.886 28975 29008 I Pay     : (REDACTED) IdCardOperation: %s, %s
+09-26 12:07:46.886 28975 29008 I Pay     : NFC is not supported, hiding ID pass [CONTEXT service_id=198 ]
+09-26 12:07:46.889 28975 28994 I Pay     : (REDACTED) Refreshing content for account: %s
+09-26 12:07:46.890 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.891 28975 28994 I Pay     : (REDACTED) IdCardRefreshManager tryRefreshIdCards %s
+09-26 12:07:46.901 28975  3013 D SQLiteQueryBuilder: SELECT value FROM partner WHERE ((name=?))
+09-26 12:07:46.902 28975  3036 I Pay     : Active account was null, notification task will be cancelled. [CONTEXT service_id=198 ]
+09-26 12:07:46.902 28975  3020 I Pay     : (REDACTED) IdCardOperation: %s, %s
+09-26 12:07:46.903 28975  3036 W Pay     : PerformIdCard operation failed [CONTEXT service_id=198 ]
+09-26 12:07:46.903 28975  3036 W Pay     : OperationException[Status{statusCode=Active account is required, resolution=null}]
+09-26 12:07:46.903 28975  3036 W Pay     : 	at fdbg.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):84)
+09-26 12:07:46.903 28975  3036 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):54)
+09-26 12:07:46.903 28975  3036 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.903 28975  3036 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.903 28975  3036 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.903 28975  3036 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.903 28975  3036 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.903 28975  3036 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.903 28975  3036 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.903 28975  3036 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.903 28975  3036 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.903 28975  3036 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.903 28975  3036 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.904 28975 28994 W Pay     : IdCardRefreshManager: mdocstore module check install failed [CONTEXT service_id=198 ]
+09-26 12:07:46.904 28975 28994 W Pay     : java.util.concurrent.ExecutionException: blqm: 5: Active account is required
+09-26 12:07:46.904 28975 28994 W Pay     : 	at gbex.q(:com.google.android.gms@263234035@26.32.34 (260400-968093310):32)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at gbex.p(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at etzb.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):44)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at etzb.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):47)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at euau.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):564)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at com.google.android.gms.pay.gcmtask.PayGcmTaskChimeraService.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):18)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at dhub.call(:com.google.android.gms@263234035@26.32.34 (260400-968093310):36)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.904 28975 28994 W Pay     : Caused by: blqm: 5: Active account is required
+09-26 12:07:46.904 28975 28994 W Pay     : 	at bmoo.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):15)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at blwv.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):12)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at entx.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):3)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):198)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.904 28975 28994 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.904 28975 28994 W Pay     : 	... 7 more
+09-26 12:07:46.905 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.908 28975 28994 I Pay     : (REDACTED) IdCardContentRefreshTaskOperation: syncing rp config for account %s
+09-26 12:07:46.914 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.922 28975 28996 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.930 28975  3047 W Pay     : Failed to fetch mdocs info list. [CONTEXT service_id=198 ]
+09-26 12:07:46.931 28975 29054 I Pay     : (REDACTED) Processing %s mdocs %s%s, %s
+09-26 12:07:46.937 28975  3036 I Pay     : (REDACTED) IdCardOperation: %s, %s
+09-26 12:07:46.938 28975 29054 I Pay     : (REDACTED) Clearing registry %s with IdentityCredentials API
+09-26 12:07:46.939 28975  3036 I Pay     : NFC is not supported, hiding ID pass [CONTEXT service_id=198 ]
+09-26 12:07:46.941 28975  3020 W Pay     : PerformIdCard operation failed [CONTEXT service_id=198 ]
+09-26 12:07:46.941 28975  3020 W Pay     : OperationException[Status{statusCode=Unknown error, resolution=null}]
+09-26 12:07:46.941 28975  3020 W Pay     : 	at fddi.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):838)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at fcpy.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):112)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at fcpw.f(:com.google.android.gms@263234035@26.32.34 (260400-968093310):13)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at dgbf.fw(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at dgbr.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):122)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at hnyy.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):23)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at bnli.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):50)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at bnli.c(:com.google.android.gms@263234035@26.32.34 (260400-968093310):6)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at bnli.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):33)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at bnri.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):8)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at java.lang.Thread.run(Thread.java:1572)
+09-26 12:07:46.941 28975  3020 W Pay     : Caused by: java.util.concurrent.ExecutionException: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.941 28975  3020 W Pay     : 	at gbex.q(:com.google.android.gms@263234035@26.32.34 (260400-968093310):32)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at gbex.p(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at fddi.b(:com.google.android.gms@263234035@26.32.34 (260400-968093310):162)
+09-26 12:07:46.941 28975  3020 W Pay     : 	... 12 more
+09-26 12:07:46.941 28975  3020 W Pay     : Caused by: blqm: 17: API: MdocStore.MDOC_STORE_API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null, clientMethodKey=null}
+09-26 12:07:46.941 28975  3020 W Pay     : 	at bmoo.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):15)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at blsk.a(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at blsh.e(:com.google.android.gms@263234035@26.32.34 (260400-968093310):5)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at blux.r(:com.google.android.gms@263234035@26.32.34 (260400-968093310):48)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at blux.d(:com.google.android.gms@263234035@26.32.34 (260400-968093310):10)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at blux.g(:com.google.android.gms@263234035@26.32.34 (260400-968093310):191)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at bluz.run(:com.google.android.gms@263234035@26.32.34 (260400-968093310):84)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at android.os.Handler.handleCallback(Handler.java:1051)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at dhsb.lJ(:com.google.android.gms@263234035@26.32.34 (260400-968093310):1)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at dhsb.dispatchMessage(:com.google.android.gms@263234035@26.32.34 (260400-968093310):148)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at android.os.Looper.loopOnce(Looper.java:266)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at android.os.Looper.loop(Looper.java:361)
+09-26 12:07:46.941 28975  3020 W Pay     : 	at android.os.HandlerThread.run(HandlerThread.java:103)
+09-26 12:07:46.943 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.956 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.976 28975 28996 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.mdocstore.service.MDOC_STORE
+09-26 12:07:46.984 28975 28996 W GmsClient: unable to connect to service: com.google.android.gms.mdocstore.service.MDOC_STORE on com.google.android.gms
+09-26 12:07:46.987 28975 28994 I Pay     : (REDACTED) Refreshing content for account: %s
+09-26 12:07:46.991 28975 28994 I Pay     : (REDACTED) IdCardRefreshManager tryRefreshIdCards %s

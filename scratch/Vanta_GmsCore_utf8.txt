@@ -1,0 +1,329 @@
+﻿Compiled from "GmsCore.java"
+public class io.vanta.core.GmsCore {
+  private static final java.lang.String TAG;
+
+  private static final java.util.Set<java.lang.String> GOOGLE_APP;
+
+  private static final java.util.Set<java.lang.String> GOOGLE_SERVICE;
+
+  public static final java.lang.String GMS_PKG;
+
+  public static final java.lang.String GSF_PKG;
+
+  public static final java.lang.String VENDING_PKG;
+
+  public io.vanta.core.GmsCore();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static boolean isGoogleService(java.lang.String);
+    Code:
+       0: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+       3: aload_0
+       4: invokeinterface #13,  2           // InterfaceMethod java/util/Set.contains:(Ljava/lang/Object;)Z
+       9: ireturn
+
+  public static boolean isGoogleAppOrService(java.lang.String);
+    Code:
+       0: getstatic     #19                 // Field GOOGLE_APP:Ljava/util/Set;
+       3: aload_0
+       4: invokeinterface #13,  2           // InterfaceMethod java/util/Set.contains:(Ljava/lang/Object;)Z
+       9: ifne          24
+      12: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+      15: aload_0
+      16: invokeinterface #13,  2           // InterfaceMethod java/util/Set.contains:(Ljava/lang/Object;)Z
+      21: ifeq          28
+      24: iconst_1
+      25: goto          29
+      28: iconst_0
+      29: ireturn
+
+  private static io.vanta.entity.pm.InstallResult installPackages(java.util.Set<java.lang.String>, int);
+    Code:
+       0: invokestatic  #22                 // Method io/vanta/VantaCore.get:()Lio/vanta/VantaCore;
+       3: astore_2
+       4: new           #28                 // class java/util/LinkedHashSet
+       7: dup
+       8: invokespecial #30                 // Method java/util/LinkedHashSet."<init>":()V
+      11: astore_3
+      12: iconst_0
+      13: istore        4
+      15: aload_0
+      16: invokeinterface #31,  1           // InterfaceMethod java/util/Set.iterator:()Ljava/util/Iterator;
+      21: astore        5
+      23: aload         5
+      25: invokeinterface #35,  1           // InterfaceMethod java/util/Iterator.hasNext:()Z
+      30: ifeq          219
+      33: aload         5
+      35: invokeinterface #41,  1           // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+      40: checkcast     #45                 // class java/lang/String
+      43: astore        6
+      45: aload_2
+      46: aload         6
+      48: iload_1
+      49: invokevirtual #47                 // Method io/vanta/VantaCore.isInstalled:(Ljava/lang/String;I)Z
+      52: ifeq          71
+      55: ldc           #51                 // String com.google.android.gms
+      57: aload         6
+      59: invokevirtual #53                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+      62: ifeq          23
+      65: iconst_1
+      66: istore        4
+      68: goto          23
+      71: invokestatic  #56                 // Method io/vanta/VantaCore.getContext:()Landroid/content/Context;
+      74: invokevirtual #60                 // Method android/content/Context.getPackageManager:()Landroid/content/pm/PackageManager;
+      77: aload         6
+      79: iconst_0
+      80: invokevirtual #66                 // Method android/content/pm/PackageManager.getApplicationInfo:(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
+      83: pop
+      84: goto          117
+      87: astore        7
+      89: ldc           #51                 // String com.google.android.gms
+      91: aload         6
+      93: invokevirtual #53                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+      96: ifeq          114
+      99: new           #74                 // class io/vanta/entity/pm/InstallResult
+     102: dup
+     103: invokespecial #76                 // Method io/vanta/entity/pm/InstallResult."<init>":()V
+     106: ldc           #51                 // String com.google.android.gms
+     108: ldc           #77                 // String Official Google Play services is not installed on the host device.
+     110: invokevirtual #79                 // Method io/vanta/entity/pm/InstallResult.installError:(Ljava/lang/String;Ljava/lang/String;)Lio/vanta/entity/pm/InstallResult;
+     113: areturn
+     114: goto          23
+     117: aload_2
+     118: aload         6
+     120: iload_1
+     121: invokevirtual #83                 // Method io/vanta/VantaCore.installPackageAsUser:(Ljava/lang/String;I)Lio/vanta/entity/pm/InstallResult;
+     124: astore        7
+     126: aload         7
+     128: getfield      #87                 // Field io/vanta/entity/pm/InstallResult.success:Z
+     131: ifne          194
+     134: ldc           #51                 // String com.google.android.gms
+     136: aload         6
+     138: invokevirtual #53                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     141: ifeq          152
+     144: aload_3
+     145: iload_1
+     146: invokestatic  #91                 // Method uninstallPackages:(Ljava/util/Set;I)V
+     149: aload         7
+     151: areturn
+     152: ldc           #95                 // String GmsCore
+     154: new           #97                 // class java/lang/StringBuilder
+     157: dup
+     158: invokespecial #99                 // Method java/lang/StringBuilder."<init>":()V
+     161: ldc           #100                // String Optional package install failed:
+     163: invokevirtual #102                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     166: aload         6
+     168: invokevirtual #102                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     171: ldc           #106                // String , error:
+     173: invokevirtual #102                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     176: aload         7
+     178: getfield      #108                // Field io/vanta/entity/pm/InstallResult.msg:Ljava/lang/String;
+     181: invokevirtual #102                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     184: invokevirtual #112                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     187: invokestatic  #116                // Method io/vanta/utils/Slog.w:(Ljava/lang/String;Ljava/lang/String;)I
+     190: pop
+     191: goto          23
+     194: aload_3
+     195: aload         6
+     197: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     202: pop
+     203: ldc           #51                 // String com.google.android.gms
+     205: aload         6
+     207: invokevirtual #53                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     210: ifeq          216
+     213: iconst_1
+     214: istore        4
+     216: goto          23
+     219: iload         4
+     221: ifne          244
+     224: aload_3
+     225: iload_1
+     226: invokestatic  #91                 // Method uninstallPackages:(Ljava/util/Set;I)V
+     229: new           #74                 // class io/vanta/entity/pm/InstallResult
+     232: dup
+     233: invokespecial #76                 // Method io/vanta/entity/pm/InstallResult."<init>":()V
+     236: ldc           #51                 // String com.google.android.gms
+     238: ldc           #125                // String Official Google Play services could not be installed.
+     240: invokevirtual #79                 // Method io/vanta/entity/pm/InstallResult.installError:(Ljava/lang/String;Ljava/lang/String;)Lio/vanta/entity/pm/InstallResult;
+     243: areturn
+     244: new           #74                 // class io/vanta/entity/pm/InstallResult
+     247: dup
+     248: invokespecial #76                 // Method io/vanta/entity/pm/InstallResult."<init>":()V
+     251: areturn
+    Exception table:
+       from    to  target type
+          71    84    87   Class android/content/pm/PackageManager$NameNotFoundException
+
+  private static void uninstallPackages(java.util.Set<java.lang.String>, int);
+    Code:
+       0: invokestatic  #22                 // Method io/vanta/VantaCore.get:()Lio/vanta/VantaCore;
+       3: astore_2
+       4: aload_0
+       5: invokeinterface #31,  1           // InterfaceMethod java/util/Set.iterator:()Ljava/util/Iterator;
+      10: astore_3
+      11: aload_3
+      12: invokeinterface #35,  1           // InterfaceMethod java/util/Iterator.hasNext:()Z
+      17: ifeq          41
+      20: aload_3
+      21: invokeinterface #41,  1           // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+      26: checkcast     #45                 // class java/lang/String
+      29: astore        4
+      31: aload_2
+      32: aload         4
+      34: iload_1
+      35: invokevirtual #127                // Method io/vanta/VantaCore.uninstallPackageAsUser:(Ljava/lang/String;I)V
+      38: goto          11
+      41: return
+
+  public static io.vanta.entity.pm.InstallResult installGApps(int);
+    Code:
+       0: new           #28                 // class java/util/LinkedHashSet
+       3: dup
+       4: invokespecial #30                 // Method java/util/LinkedHashSet."<init>":()V
+       7: astore_1
+       8: aload_1
+       9: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+      12: invokeinterface #131,  2          // InterfaceMethod java/util/Set.addAll:(Ljava/util/Collection;)Z
+      17: pop
+      18: aload_1
+      19: getstatic     #19                 // Field GOOGLE_APP:Ljava/util/Set;
+      22: invokeinterface #131,  2          // InterfaceMethod java/util/Set.addAll:(Ljava/util/Collection;)Z
+      27: pop
+      28: aload_1
+      29: iload_0
+      30: invokestatic  #135                // Method installPackages:(Ljava/util/Set;I)Lio/vanta/entity/pm/InstallResult;
+      33: astore_2
+      34: aload_2
+      35: getfield      #87                 // Field io/vanta/entity/pm/InstallResult.success:Z
+      38: ifne          47
+      41: iload_0
+      42: invokestatic  #139                // Method uninstallGApps:(I)V
+      45: aload_2
+      46: areturn
+      47: aload_2
+      48: areturn
+
+  public static void uninstallGApps(int);
+    Code:
+       0: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+       3: iload_0
+       4: invokestatic  #91                 // Method uninstallPackages:(Ljava/util/Set;I)V
+       7: getstatic     #19                 // Field GOOGLE_APP:Ljava/util/Set;
+      10: iload_0
+      11: invokestatic  #91                 // Method uninstallPackages:(Ljava/util/Set;I)V
+      14: return
+
+  public static void remove(java.lang.String);
+    Code:
+       0: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+       3: aload_0
+       4: invokeinterface #143,  2          // InterfaceMethod java/util/Set.remove:(Ljava/lang/Object;)Z
+       9: pop
+      10: getstatic     #19                 // Field GOOGLE_APP:Ljava/util/Set;
+      13: aload_0
+      14: invokeinterface #143,  2          // InterfaceMethod java/util/Set.remove:(Ljava/lang/Object;)Z
+      19: pop
+      20: return
+
+  public static boolean isSupportGms();
+    Code:
+       0: invokestatic  #146                // Method io/vanta/VantaCore.getPackageManager:()Landroid/content/pm/PackageManager;
+       3: ldc           #51                 // String com.google.android.gms
+       5: iconst_0
+       6: invokevirtual #66                 // Method android/content/pm/PackageManager.getApplicationInfo:(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
+       9: getfield      #147                // Field android/content/pm/ApplicationInfo.enabled:Z
+      12: ireturn
+      13: astore_0
+      14: iconst_0
+      15: ireturn
+    Exception table:
+       from    to  target type
+           0    12    13   Class android/content/pm/PackageManager$NameNotFoundException
+
+  public static boolean isInstalledGoogleService(int);
+    Code:
+       0: invokestatic  #22                 // Method io/vanta/VantaCore.get:()Lio/vanta/VantaCore;
+       3: ldc           #51                 // String com.google.android.gms
+       5: iload_0
+       6: invokevirtual #47                 // Method io/vanta/VantaCore.isInstalled:(Ljava/lang/String;I)Z
+       9: ireturn
+
+  static {};
+    Code:
+       0: new           #28                 // class java/util/LinkedHashSet
+       3: dup
+       4: invokespecial #30                 // Method java/util/LinkedHashSet."<init>":()V
+       7: putstatic     #19                 // Field GOOGLE_APP:Ljava/util/Set;
+      10: new           #28                 // class java/util/LinkedHashSet
+      13: dup
+      14: invokespecial #30                 // Method java/util/LinkedHashSet."<init>":()V
+      17: putstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+      20: getstatic     #19                 // Field GOOGLE_APP:Ljava/util/Set;
+      23: ldc           #152                // String com.android.vending
+      25: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+      30: pop
+      31: getstatic     #19                 // Field GOOGLE_APP:Ljava/util/Set;
+      34: ldc           #154                // String com.google.android.play.games
+      36: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+      41: pop
+      42: getstatic     #19                 // Field GOOGLE_APP:Ljava/util/Set;
+      45: ldc           #156                // String com.google.android.wearable.app
+      47: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+      52: pop
+      53: getstatic     #19                 // Field GOOGLE_APP:Ljava/util/Set;
+      56: ldc           #158                // String com.google.android.wearable.app.cn
+      58: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+      63: pop
+      64: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+      67: ldc           #51                 // String com.google.android.gms
+      69: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+      74: pop
+      75: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+      78: ldc           #160                // String com.google.android.gsf
+      80: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+      85: pop
+      86: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+      89: ldc           #162                // String com.google.android.gsf.login
+      91: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+      96: pop
+      97: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+     100: ldc           #164                // String com.google.android.backuptransport
+     102: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     107: pop
+     108: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+     111: ldc           #166                // String com.google.android.backup
+     113: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     118: pop
+     119: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+     122: ldc           #168                // String com.google.android.configupdater
+     124: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     129: pop
+     130: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+     133: ldc           #170                // String com.google.android.syncadapters.contacts
+     135: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     140: pop
+     141: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+     144: ldc           #172                // String com.google.android.feedback
+     146: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     151: pop
+     152: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+     155: ldc           #174                // String com.google.android.onetimeinitializer
+     157: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     162: pop
+     163: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+     166: ldc           #176                // String com.google.android.partnersetup
+     168: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     173: pop
+     174: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+     177: ldc           #178                // String com.google.android.setupwizard
+     179: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     184: pop
+     185: getstatic     #7                  // Field GOOGLE_SERVICE:Ljava/util/Set;
+     188: ldc           #180                // String com.google.android.syncadapters.calendar
+     190: invokeinterface #122,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     195: pop
+     196: return
+}
